@@ -20,7 +20,10 @@ def plot_graph():
 	x_coords = np.arange(5.,100.,2)
 	y_coords = x_coords*1.5
 
-	plt.plot(x_coords, y_coords, 'r*', x_coords, x_coords, "bo")
+	plt.plot(x_coords, y_coords, 'r^', label="Training Error")
+	plt.plot(x_coords, x_coords, "bo", label="Test Error")
+
+	plt.legend()
 
 	plt.show()
 
