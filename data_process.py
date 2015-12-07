@@ -1,6 +1,7 @@
 import csv
 from sets import Set
 import numpy as np
+import random
 
 season_long_qbs = ['Derek Carr', 'Andy Dalton', 'Joe Flacco', 'Andrew Luck','Aaron Rodgers','Drew Brees','Peyton Manning',
 	'Russell Wilson', 'Matt Ryan', 'Eli Manning', 'Philip Rivers', 'Tom Brady', 'Colin Kaepernick', 'Ben Roethlisberger',
@@ -14,6 +15,15 @@ start_week = 4
 end_week = 16
 
 thetas = {}
+theta = {}
+
+qb_stats = {}
+qb_names = Set()
+qb_parameters = []
+the_big_five = ['Yds','Td','Int','Ryds','Rtd']
+the_big_one = ['Td']
+
+qb_perfs = []
 
 # HELPER: given a stat and week, get prev n weeks
 def statHelper(player, stat, perfnum, n):
@@ -45,7 +55,47 @@ def train():
 		if DEBUG:
 			print "Thetas for",qb
 			print theta
-		thetas[qb] = theta 
+		thetas[qb] = theta
+
+#PERF STRUCT: 
+def make_perfs_bag():
+	if DEBUG: print "Making the bag of all performances data"
+	#change to list of ALL QBs
+	for qb in season_long_qbs:
+		# will have to change to adjust for ALL QBs
+		for perfnum in range(13):
+			x = []
+			y = []
+			for i in the_big_five:
+				# x[i] = []
+				x.append(statHelper(qb,i,perfnum+3,3))
+				y.append(qb_stats[qb][i][perfnum+3])
+				# print x[0]
+				# x[i].append(qb_stats[qb][i][perfnum])
+				# x[i].append(qb_stats[qb][i][perfnum+1])
+				# x[i].append(qb_stats[qb][i][perfnum+2])
+				# y[i].append(qb_stats[qb][i][perfnum+3])
+			qb_perfs.append((x,y))
+	if DEBUG: print "Bag filled."
+
+
+def train_new(trainingsz):
+	if DEBUG: print "Training - REFACTORED"
+	indices = random.sample(xrange(len(qb_perfs)), trainingsz)
+	for i in range(len(the_big_five)):
+		x = []
+		y = []
+		for idx in indices:
+			x.append(qb_perfs[idx][0][i])	#fill X matrix with this perf's X's
+			y.append(qb_perfs[idx][1][i])	#fill Y ''
+		x_matrix = np.matrix(x)
+		y_matrix = np.matrix(y)
+		try:
+			theta[the_big_five[i]] = (x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT()
+		except np.linalg.LinAlgError:
+			if DEBUG: print "Warning: Detected non-invertible matrix for", i ," so using zeros."
+			theta[the_big_five[i]] = np.matrix([[0],[0],[0]])
+	return indices
 
 def predict_qbs_for_week(week):
 	qb_week_scores = {}
@@ -56,10 +106,13 @@ def predict_qbs_for_week(week):
 
 def predict_qb_for_week(qb, week):
 	totalfantasyvalue = 0
-	theta = thetas[qb]
-	for i in the_big_five:
-		x = np.matrix(statHelper(qb,i,week,3)).getT()
-		totalfantasyvalue += float(theta[i].getT()*x*fantasy_weights[i])
+	# theta = thetas[qb]
+	for i in range(len(the_big_five)):
+		x = np.matrix(statHelper(qb,the_big_five[i],week,3)).getT()
+		#ERROR HERE theta[i]
+		print theta
+		print theta[the_big_five[i]]
+		totalfantasyvalue += float(theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
 	return totalfantasyvalue
 
 def predict_qbs_for_season():
@@ -70,14 +123,10 @@ def predict_qbs_for_season():
 			score = predict_qb_for_week(qb, w)
 			week_scores.append(score)
 		qb_scores[qb] = week_scores
-
 	return qb_scores
 
-qb_stats = {}
-qb_names = Set()
-qb_parameters = []
-the_big_five = ['Yds','Td','Int','Ryds','Rtd']
-the_big_one = ['Td']
+def get_qb_stats():
+	return qb_stats
 
 qbs = open('data_2014.csv', 'rU')
 qbs_read = csv.reader(qbs, dialect=csv.excel_tab)
