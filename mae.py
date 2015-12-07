@@ -21,7 +21,7 @@ def get_actual_performance(qb,week_start):
 		fantasypts = 0
 		for i in the_big_five:
 			fantasypts += qb_stats[qb][i][j]*fantasy_weights[i]
-			print qb_stats[qb][i][j]
+			# print qb_stats[qb][i][j]
 		actual_fantasy_performance.append(fantasypts)
 	return actual_fantasy_performance
 
@@ -36,7 +36,11 @@ def predict_perf(perfIdx):
 	for i in range(len(the_big_five)):
 		x = np.matrix(dp.qb_perfs[perfIdx][0][i]).getT()
 		totalfantasyvalue += float(dp.theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
-	return totalfantasyvalue
+	average_defense_rnk = sum(dp.qb_perfs_defenses[perfIdx][0]) / len(dp.qb_perfs_defenses[perfIdx][0])
+	today_defense_rnk = dp.qb_perfs_defenses[perfIdx][1]
+	diff_rnk = today_defense_rnk - average_defense_rnk
+	defense_adjustment = diff_rnk / float(average_defense_rnk)
+	return totalfantasyvalue + defense_adjustment
 
 
 def plot_graph():
@@ -107,22 +111,13 @@ def train_and_test(num_examples):
 	if DEBUG: print "And mean abs testing error..", mean_abs_error_test
 	return (mean_abs_error_train, mean_abs_error_test)
 
-plot_graph()
 
+def main():
+	# print "Sick."
+	# for qb in season_long_qbs:
+	# 	print qb, "---"
+	# 	print defense.getDefenseRank(7,qb_team_abbreviations[qb])
+	plot_graph()
 
-# runningerror = 0
-# count = 0
-# for game in range(len(plist)):
-# 	print plist[game]
-# 	predict = plist[game][0]
-# 	actual = andrew[game]
-# 	print "P:", predict
-# 	print "A:", actual
-# 	diff = abs(actual - predict)
-# 	diffsq = diff*diff
-# 	print "diff sq is", diffsq
-# 	runningerror += diffsq
-# 	count += 1
-# print count, "COUNT"
-# mse = float(runningerror / count)
-# print mse
+if __name__ == "__main__":
+    main()

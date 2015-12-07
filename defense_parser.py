@@ -1,15 +1,15 @@
 import csv
 from collections import defaultdict
 
-abbrvs = {"New Orleans Saints":"NO", "Pittsburgh Steelers":"PIT", "New England Patriots":"NE",
-	"New York Jets":"NYJ", "Miami Dolphins":"MIA", "Buffalo Bills":"BUF", "Baltimore Ravens":"BAL",
-	"Cleveland Browns":"CLE", "Cincinnati Bengals":"CIN", "Houston Texans":"HOU", "Indianapolis Colts":"IND",
-	"Jacksonville Jaguars":"JAX", "Tennessee Titans":"TEN", "Denver Broncos":"DEN", "Kansas City Chiefs":"KC",
-	"San Diego Chargers":"SD", "Oakland Raiders":"OAK", "Dallas Cowboys":"DAL", "Washington Redskins":"Was",
-	"New York Giants":"NYG", "Philadelphia Eagles":"PHI", "Minnesota Vikings":"MIN", "Green Bay Packers":"GB",
-	"Detroit Lions":"DET", "Chicago Bears":"CHI", "Tampa Bay Buccaneers":"TB", "Atlanta Falcons":"ATL",
-	"Carolina Panthers":"CAR", "San Francisco 49ers":"SF", "Seattle Seahawks":"SEA", "Arizona Cardinals":"ARZ",
-	"St. Louis Rams":"STL", "St":"STL"}
+abbrvs = {'New Orleans Saints':'NO', 'Pittsburgh Steelers':'PIT', 'New England Patriots':'NE',
+	'New York Jets':'NYJ', 'Miami Dolphins':'MIA', 'Buffalo Bills':'BUF', 'Baltimore Ravens':'BAL',
+	'Cleveland Browns':'CLE', 'Cincinnati Bengals':'CIN', 'Houston Texans':'HOU', 'Indianapolis Colts':'IND',
+	'Jacksonville Jaguars':'JAX', 'Tennessee Titans':'TEN', 'Denver Broncos':'DEN', 'Kansas City Chiefs':'KC',
+	'San Diego Chargers':'SD', 'Oakland Raiders':'OAK', 'Dallas Cowboys':'DAL', 'Washington Redskins':'WAS',
+	'New York Giants':'NYG', 'Philadelphia Eagles':'PHI', 'Minnesota Vikings':'MIN', 'Green Bay Packers':'GB',
+	'Detroit Lions':'DET', 'Chicago Bears':'CHI', 'Tampa Bay Buccaneers':'TB', 'Atlanta Falcons':'ATL',
+	'Carolina Panthers':'CAR', 'San Francisco 49ers':'SF', 'Seattle Seahawks':'SEA', 'Arizona Cardinals':'ARZ',
+	'St. Louis Rams':'STL', 'St':'STL'}
 
 
 def getDefLib():
@@ -46,7 +46,7 @@ def getDefLib():
 def getTeamList(Def_Lib):
 	Teams = []
 	for team in Def_Lib[1]:
-		print team
+		# print team
 		Teams.append(team)
 	return Teams
 
@@ -69,9 +69,6 @@ def getCumDefLib(Def_Lib, Teams):
 				Cum_Def_Lib[Week][Team]["FanPts"] = 0
 			else:
 				Cum_Def_Lib[Week][Team]["Bye"] = True
-			if Team == "Seattle Seahawks":
-				print "Week is " + str(Week)
-				print str(Cum_Def_Lib[Week][Team]["Bye"])
 
 	for Team in Teams:
 		Cum_Def_Lib[0][Team]["Bye"] = False
@@ -121,7 +118,7 @@ def getCumDefLib(Def_Lib, Teams):
 def getTeamRanking(team, week):
 	Def_Lib = getDefLib()
 	Teams = getTeamList(Def_Lib)
-	print Teams
+	# print Teams
 	Cum_Def_Lib = getCumDefLib(Def_Lib, Teams)
 
 def getSchedule(Teams):
@@ -163,14 +160,13 @@ def getTeamRank(week, team, Cum_Def_Lib):
 	fan_rank = []
 	for team_iter in Cum_Def_Lib[week]:
 		if team_iter != team:
-			print "team is " + str(team_iter)
-			print Cum_Def_Lib[week][team_iter]["avg_PA"]
 			if getDefenseScore(week, team_iter, Cum_Def_Lib) < team_score:
 				cur_rank +=1
 	return cur_rank
 
 
-def getDefenseRank(perfNum, team):
+def getDefenseRank(rawPerfNum, team):
+	perfNum = rawPerfNum + 1
 	Def_Lib = getDefLib()
 	Teams = getTeamList(Def_Lib)
 	Cum_Def_Lib = getCumDefLib(Def_Lib, Teams)
@@ -178,7 +174,7 @@ def getDefenseRank(perfNum, team):
 	true_week = getTrueWeek(bye, perfNum, team)
 	rank = getTeamRank(true_week, team, Cum_Def_Lib)
 	#print true_week
-	print rank
+	return rank
 
 def main():
 	perfNum = 16
