@@ -110,8 +110,8 @@ def predict_qb_for_week(qb, week):
 	for i in range(len(the_big_five)):
 		x = np.matrix(statHelper(qb,the_big_five[i],week,3)).getT()
 		#ERROR HERE theta[i]
-		print theta
-		print theta[the_big_five[i]]
+		if DEBUG: print theta
+		if DEBUG: print theta[the_big_five[i]]
 		totalfantasyvalue += float(theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
 	return totalfantasyvalue
 
