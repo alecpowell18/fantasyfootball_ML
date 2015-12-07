@@ -2,6 +2,7 @@ import csv
 from sets import Set
 import numpy as np
 import data_process as dp
+import matplotlib.pyplot as plt
 
 DEBUG = False;
 TRAINING_RATIO = 0.3
@@ -37,6 +38,27 @@ def predict_perf(perfIdx):
 		totalfantasyvalue += float(dp.theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
 	return totalfantasyvalue
 
+
+def plot_graph():
+	min_error = min_training_examples = 0
+	max_error = 100;
+	max_training_examples = 100;
+
+	# Setup labels and axes
+	plt.ylabel('Mean Absolute Error')
+	plt.xlabel('# Training Examples')
+	plt.axis([min_training_examples,max_training_examples, min_error, max_error])
+
+	# Define points for plotting
+	x_coords = np.arange(5.,100.,2)
+	y_coords = x_coords*1.5
+
+	plt.plot(x_coords, y_coords, 'r^', label="Training Error")
+	plt.plot(x_coords, x_coords, "bo", label="Test Error")
+
+	plt.legend()
+
+	plt.show()
 
 # Obtain season data
 dp.make_perfs_bag()
@@ -82,6 +104,8 @@ mean_abs_error_test = test_error_sum / float(TOTAL_TEST_RECORDS)
 
 print "And mean absolute training error is....", mean_abs_error_train
 print "And mean abs testing error..", mean_abs_error_test
+
+plot_graph()
 
 
 # runningerror = 0
