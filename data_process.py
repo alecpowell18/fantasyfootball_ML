@@ -15,13 +15,6 @@ fantasy_weights = {'Yds':.04,'Td':4,'Int':-1,'Ryds':.1,'Rtd':6}
 
 DEBUG = False
 
-# Lookback Configuration
-look_back = 6
-default_matrix = np.matrix([[0],[0],[0],[0],[0],[0]])
-start_week = 7
-end_week = 16
-
-
 gameday_thetas = []
 theta = {}
 
@@ -36,6 +29,17 @@ qb_perfs = []
 #list of tuples
 qb_perfs_defenses = []
 
+# Lookback Configuration
+look_back = 3
+
+# Configures for Lookback
+zeros_list = []
+for j in range(look_back):
+	zeros_list.append(0)
+default_matrix = (np.matrix(zeros_list)).getT()
+start_week = 1+look_back
+end_week = 16
+
 # HELPER: given a stat and week, get prev n weeks
 def statHelper(player, stat, perfnum, n):
 	toret = []
@@ -47,30 +51,30 @@ def statHelper(player, stat, perfnum, n):
 		startperf += 1
 	return toret
 
-# def trainV1():
-# 	if DEBUG: print "Training for Specific QB Approach"
-# 	for qb in season_long_qbs:
-# 		theta = {}
-# 		if DEBUG: print qb
-# 		for i in the_big_five:
-# 			x = []
-# 			y = []
-# 			for perfnum in range(13):	# really starts at week 4, but...
-# 				x.append(statHelper(qb,i,perfnum+3,3))
-# 				y.append(qb_stats[qb][i][perfnum+3])
-# 			x_matrix = np.matrix(x)
-# 			y_matrix = np.matrix(y)
-# 			try:
-# 				theta[i] = (x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT()
-# 			except np.linalg.LinAlgError:
-# 				if DEBUG: print "Warning: Detected non-invertible matrix for", i ," so using zeros."
-# 				theta[i] = np.matrix([[0],[0],[0]])
-# 		if DEBUG:
-# 			print "Thetas for",qb
-# 			print theta
-# 		thetas[qb] = theta
+def train_V1():
+	if DEBUG: print "Training for Specific QB Approach"
+	for qb in season_long_qbs:
+		theta = {}
+		if DEBUG: print qb
+		for i in the_big_five:
+			x = []
+			y = []
+			for perfnum in range(13):	# really starts at week 4, but...
+				x.append(statHelper(qb,i,perfnum+3,3))
+				y.append(qb_stats[qb][i][perfnum+3])
+			x_matrix = np.matrix(x)
+			y_matrix = np.matrix(y)
+			try:
+				theta[i] = (x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT()
+			except np.linalg.LinAlgError:
+				if DEBUG: print "Warning: Detected non-invertible matrix for", i ," so using zeros."
+				theta[i] = np.matrix([[0],[0],[0]])
+		if DEBUG:
+			print "Thetas for",qb
+			print theta
+		thetas[qb] = theta
 
-def trainGeneralized(trainingsz):
+def train_generalized(trainingsz):
 	if DEBUG: print "Training for Generalized Theta Approach"
 	indices = random.sample(xrange(len(qb_perfs)), trainingsz)
 	for i in range(len(the_big_five)):
@@ -102,9 +106,9 @@ def get_actual_perf(perfIdx):
 		fantasypts += qb_perfs[perfIdx][1][i]*fantasy_weights[the_big_five[i]]
 	return fantasypts
 
-def trainGamedayLR(trainingsz):
+def train_gameday_LR(trainingsz):
 	if DEBUG: print "Training - includes defensive values"
-	indices = trainGeneralized(trainingsz)
+	indices = train_generalized(trainingsz)
 	# print theta
 
 	x  =[]

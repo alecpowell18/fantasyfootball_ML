@@ -60,13 +60,12 @@ def predict_perf_gameday(perfIdx):
 
 	return x_matrix * dp.gameday_thetas[0]
 
-
 def plot_graph():
 	min_error = 0
 	max_error = 20
 
 	min_num_examples = 10
-	max_num_examples = 150
+	max_num_examples = 250
 
 	# Setup labels and axes
 	plt.ylabel('Mean Absolute Error')
@@ -100,7 +99,7 @@ def train_and_test(num_examples):
 	TOTAL_TEST_RECORDS = int((1-TRAINING_RATIO) * num_examples)
 
 	#TRAINING
-	selectedTrainingPerfs = dp.trainGamedayLR(TOTAL_TRAINING_RECORDS)
+	selectedTrainingPerfs = dp.train_gameday_LR(TOTAL_TRAINING_RECORDS)
 
 	#Calculate training error
 	training_error_sum = 0
