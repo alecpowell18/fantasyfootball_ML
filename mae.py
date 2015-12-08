@@ -66,7 +66,7 @@ def plot_graph():
 	max_error = 20
 
 	min_num_examples = 10
-	max_num_examples = 275
+	max_num_examples = 150
 
 	# Setup labels and axes
 	plt.ylabel('Mean Absolute Error')

@@ -13,10 +13,14 @@ qb_team_abbreviations = {'Derek Carr':'OAK', 'Andy Dalton':'CIN', 'Joe Flacco':'
 
 fantasy_weights = {'Yds':.04,'Td':4,'Int':-1,'Ryds':.1,'Rtd':6}
 
-DEBUG = False;
+DEBUG = False
 
-start_week = 4
+# Lookback Configuration
+look_back = 6
+default_matrix = np.matrix([[0],[0],[0],[0],[0],[0]])
+start_week = 7
 end_week = 16
+
 
 gameday_thetas = []
 theta = {}
@@ -81,7 +85,8 @@ def trainGeneralized(trainingsz):
 			theta[the_big_five[i]] = (x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT()
 		except np.linalg.LinAlgError:
 			if DEBUG: print "Warning: Detected non-invertible matrix for", i ," so using zeros."
-			theta[the_big_five[i]] = np.matrix([[0],[0],[0]])
+			# The following needs to be changed to match the look back we are using!
+			theta[the_big_five[i]] = default_matrix
 	return indices
 
 def predict_stats_perf(perfIdx):
@@ -127,14 +132,14 @@ def make_perfs_bag():
 	#change to list of ALL QBs
 	for qb in season_long_qbs:
 		# will have to change to adjust for ALL QBs
-		for perfnum in range(13):
+		for perfnum in range(17-start_week):
 			x = []
 			y = []
 			for i in the_big_five:
-				x.append(statHelper(qb,i,perfnum+3,3))
-				y.append(qb_stats[qb][i][perfnum+3])
+				x.append(statHelper(qb,i,perfnum+look_back,look_back))
+				y.append(qb_stats[qb][i][perfnum+look_back])
 			qb_perfs.append((x,y))
-			tup_1 = statHelper(qb,'DefRnk',perfnum+3,3)
+			tup_1 = statHelper(qb,'DefRnk',perfnum+look_back,look_back)
 			tup_2 = defense.getDefenseRank(perfnum, qb_team_abbreviations[qb])
 			qb_perfs_defenses.append((tup_1,tup_2))
 	if DEBUG: print "Bag filled."
@@ -150,7 +155,7 @@ def predict_qbs_for_week(week):
 def predict_qb_for_week(qb, week):
 	totalfantasyvalue = 0
 	for i in range(len(the_big_five)):
-		x = np.matrix(statHelper(qb,the_big_five[i],week,3)).getT()
+		x = np.matrix(statHelper(qb,the_big_five[i],week,look_back)).getT()
 		if DEBUG: print theta
 		if DEBUG: print theta[the_big_five[i]]
 		totalfantasyvalue += float(theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
@@ -190,4 +195,4 @@ for line in qbs_read:
 		if qb_parameters[current_param] in the_big_five:
 			qb_stats[current_name][qb_parameters[current_param]].append(float(param.strip()))
 		current_param += 1
-	# qb_stats[current_name]['DefRnk'].append(defense.getDefenseRank(,qb_team_abbreviations[qb]))
+
