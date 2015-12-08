@@ -18,7 +18,7 @@ DEBUG = False;
 start_week = 4
 end_week = 16
 
-thetas = {}
+gameday_thetas = []
 theta = {}
 
 qb_stats = {}
@@ -43,8 +43,8 @@ def statHelper(player, stat, perfnum, n):
 		startperf += 1
 	return toret
 
-# def train():
-# 	if DEBUG: print "Training"
+# def trainV1():
+# 	if DEBUG: print "Training for Specific QB Approach"
 # 	for qb in season_long_qbs:
 # 		theta = {}
 # 		if DEBUG: print qb
@@ -66,6 +66,61 @@ def statHelper(player, stat, perfnum, n):
 # 			print theta
 # 		thetas[qb] = theta
 
+def trainGeneralized(trainingsz):
+	if DEBUG: print "Training for Generalized Theta Approach"
+	indices = random.sample(xrange(len(qb_perfs)), trainingsz)
+	for i in range(len(the_big_five)):
+		x = []
+		y = []
+		for idx in indices:
+			x.append(qb_perfs[idx][0][i])	#fill X matrix with this perf's X's
+			y.append(qb_perfs[idx][1][i])	#fill Y ''
+		x_matrix = np.matrix(x)
+		y_matrix = np.matrix(y)
+		try:
+			theta[the_big_five[i]] = (x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT()
+		except np.linalg.LinAlgError:
+			if DEBUG: print "Warning: Detected non-invertible matrix for", i ," so using zeros."
+			theta[the_big_five[i]] = np.matrix([[0],[0],[0]])
+	return indices
+
+def predict_stats_perf(perfIdx):
+	totalfantasyvalue = 0
+	for i in range(len(the_big_five)):
+		x = np.matrix(qb_perfs[perfIdx][0][i]).getT()
+		totalfantasyvalue += float(theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
+	return totalfantasyvalue
+
+def get_actual_perf(perfIdx):
+	fantasypts = 0
+	for i in range(len(the_big_five)):
+		fantasypts += qb_perfs[perfIdx][1][i]*fantasy_weights[the_big_five[i]]
+	return fantasypts
+
+def trainGamedayLR(trainingsz):
+	if DEBUG: print "Training - includes defensive values"
+	indices = trainGeneralized(trainingsz)
+	# print theta
+
+	x  =[]
+	y = []
+	for i in indices:
+		features = []
+
+		# Generate a training example consisting of statistical prediction and defensive rank 
+		features.append(predict_stats_perf(i))
+		features.append(qb_perfs_defenses[i][1])
+
+		x.append(features)
+		y.append(get_actual_perf(i))	
+
+	x_matrix = np.matrix(x)
+	y_matrix = np.matrix(y)
+	gameday_thetas.append((x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT())
+
+	# print gameday_thetas
+	return indices
+
 #PERF STRUCT: 
 def make_perfs_bag():
 	if DEBUG: print "Making the bag of all performances data"
@@ -84,25 +139,6 @@ def make_perfs_bag():
 			qb_perfs_defenses.append((tup_1,tup_2))
 	if DEBUG: print "Bag filled."
 	# print qb_perfs_defenses
-
-
-def train_new(trainingsz):
-	if DEBUG: print "Training - REFACTORED"
-	indices = random.sample(xrange(len(qb_perfs)), trainingsz)
-	for i in range(len(the_big_five)):
-		x = []
-		y = []
-		for idx in indices:
-			x.append(qb_perfs[idx][0][i])	#fill X matrix with this perf's X's
-			y.append(qb_perfs[idx][1][i])	#fill Y ''
-		x_matrix = np.matrix(x)
-		y_matrix = np.matrix(y)
-		try:
-			theta[the_big_five[i]] = (x_matrix.getT()*x_matrix).getI()*x_matrix.getT()*y_matrix.getT()
-		except np.linalg.LinAlgError:
-			if DEBUG: print "Warning: Detected non-invertible matrix for", i ," so using zeros."
-			theta[the_big_five[i]] = np.matrix([[0],[0],[0]])
-	return indices
 
 def predict_qbs_for_week(week):
 	qb_week_scores = {}
