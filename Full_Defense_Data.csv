@@ -1,0 +1,1059 @@
+Week 1,,,,,,,,,,,,
+1. San Francisco 49ers,1,3,1,3,1,17,255,127,0,0,17,17
+2. Minnesota Vikings,1,5,0,2,1,6,246,72,0,0,15,15
+3. Philadelphia Eagles,1,3,1,0,1,17,242,64,0,0,11,11
+4. Jacksonville Jaguars,1,5,2,1,0,34,275,145,0,0,11,11
+5. Tennessee Titans,1,4,0,3,0,10,178,67,0,0,10,10
+6. Carolina Panthers,1,3,1,2,0,14,162,102,0,0,9,9
+7. Green Bay Packers,1,1,1,0,0,36,191,207,1,0,8,8
+8. Buffalo Bills,1,2,1,2,0,20,341,86,0,0,8,8
+9. Miami Dolphins,1,4,2,0,0,20,226,89,0,0,8,8
+10. Houston Texans,1,3,2,0,0,6,241,131,0,0,7,7
+11. Cincinnati Bengals,1,3,1,1,0,16,329,91,0,0,7,7
+12. New England Patriots,1,1,2,1,0,33,169,191,0,0,7,7
+13. Denver Broncos,1,3,0,2,0,24,354,54,0,0,7,7
+14. Oakland Raiders,1,2,1,1,0,19,190,212,0,0,6,6
+15. San Diego Chargers,1,2,2,0,0,18,294,109,0,0,6,6
+16. Cleveland Browns,1,4,0,1,0,30,363,127,0,0,6,6
+17. Detroit Lions,1,2,0,2,0,14,144,53,0,0,6,6
+18. Seattle Seahawks,1,3,0,1,0,16,175,80,0,0,5,5
+19. Atlanta Falcons,1,0,1,1,0,34,333,139,0,0,4,4
+20. Kansas City Chiefs,1,4,0,0,0,26,243,162,0,0,4,4
+21. Pittsburgh Steelers,1,3,0,0,0,27,206,183,0,0,3,3
+22. Chicago Bears,1,1,0,1,0,23,167,193,0,0,3,3
+23. New Orleans Saints,1,1,1,0,0,37,445,123,0,0,3,3
+24. Washington Redskins,1,1,1,0,0,17,201,115,0,0,3,3
+25. New York Jets,1,2,0,0,0,14,133,25,0,0,2,2
+26. Arizona Cardinals,1,0,0,1,0,17,238,52,0,0,2,2
+27. Indianapolis Colts,1,1,0,0,0,31,259,102,0,0,1,1
+28. St. Louis Rams,1,1,0,0,0,34,160,186,0,0,1,1
+29. Tampa Bay Buccaneers,1,1,0,0,0,20,221,113,0,0,1,1
+30. Dallas Cowboys,1,1,0,0,0,28,192,124,0,0,1,1
+31. New York Giants,1,1,0,0,0,35,341,76,0,0,1,1
+32. Baltimore Ravens,1,0,0,0,0,23,301,79,0,0,0,0
+Week 2,,,,,,,,,,,,
+1. Arizona Cardinals,1,2,2,2,0,14,260,81,0,1,16,16
+2. Buffalo Bills,1,4,1,1,0,10,210,80,0,1,14,14
+3. New England Patriots,1,6,0,4,0,7,163,54,0,0,14,14
+4. Chicago Bears,1,4,1,3,0,20,232,129,0,0,12,12
+5. Cleveland Browns,1,2,1,1,1,24,223,174,0,0,12,12
+6. Washington Redskins,1,10,0,1,0,10,123,25,0,0,12,12
+7. Carolina Panthers,1,4,2,1,0,7,253,70,0,0,10,10
+8. Houston Texans,1,0,2,2,0,14,263,101,0,0,8,8
+9. Baltimore Ravens,1,2,2,1,0,6,202,99,0,0,8,8
+10. Cincinnati Bengals,1,2,0,3,0,10,212,97,0,0,8,8
+11. New York Jets,1,4,1,0,0,31,310,80,0,0,6,6
+12. Dallas Cowboys,1,2,0,2,0,10,232,82,0,0,6,6
+13. Tennessee Titans,1,4,1,0,0,26,148,220,0,0,6,6
+14. Detroit Lions,1,5,0,0,0,24,251,62,0,0,5,5
+15. Green Bay Packers,1,2,0,1,0,24,166,146,0,0,4,4
+16. Philadelphia Eagles,1,0,1,1,0,27,172,169,0,0,4,4
+17. San Diego Chargers,1,2,1,0,0,21,180,108,0,0,4,4
+18. Tampa Bay Buccaneers,1,2,1,0,0,19,220,119,0,0,4,4
+19. New York Giants,1,4,0,0,0,25,142,124,0,0,4,4
+20. Jacksonville Jaguars,1,3,0,0,0,41,258,191,0,0,3,3
+21. St. Louis Rams,1,1,0,1,0,17,175,157,0,0,3,3
+22. Indianapolis Colts,1,0,0,1,0,30,331,127,0,0,2,2
+23. Denver Broncos,1,2,0,0,0,17,247,133,0,0,2,2
+24. Kansas City Chiefs,1,1,0,0,0,24,237,88,0,0,1,1
+25. Seattle Seahawks,1,1,0,0,0,30,276,101,0,0,1,1
+26. San Francisco 49ers,1,1,0,0,0,28,170,46,0,0,1,1
+27. Minnesota Vikings,1,1,0,0,0,30,142,150,0,0,1,1
+28. New Orleans Saints,1,1,0,0,0,26,202,122,0,0,1,1
+29. Oakland Raiders,1,0,0,0,0,30,139,188,0,0,0,0
+30. Atlanta Falcons,1,0,0,0,0,24,302,170,0,0,0,0
+31. Pittsburgh Steelers,1,0,0,0,0,26,166,157,0,0,0,0
+32. Miami Dolphins,1,0,0,0,0,29,202,113,0,0,0,0
+Week 3,,,,,,,,,,,,
+1. Atlanta Falcons,1,3,4,1,1,14,153,64,0,1,25,25
+2. Indianapolis Colts,1,4,1,2,1,17,239,105,0,0,16,16
+3. Chicago Bears,1,3,1,2,1,19,300,114,0,0,15,15
+4. Tampa Bay Buccaneers,1,1,3,1,1,56,344,144,0,0,15,15
+5. Green Bay Packers,1,2,1,2,0,19,238,115,1,0,13,13
+6. Pittsburgh Steelers,1,3,2,0,1,19,307,42,0,0,13,13
+7. Dallas Cowboys,1,0,1,2,1,31,327,121,0,0,12,12
+8. Seattle Seahawks,1,1,1,1,0,20,296,36,1,0,10,10
+9. St. Louis Rams,1,0,1,1,1,34,217,123,0,0,10,10
+10. Detroit Lions,1,2,1,0,1,7,147,76,0,0,10,10
+11. Kansas City Chiefs,1,4,0,0,0,15,191,141,1,0,9,9
+12. Miami Dolphins,1,5,2,0,0,34,168,174,0,0,9,9
+13. Philadelphia Eagles,1,0,0,1,0,34,427,84,0,1,8,8
+14. New York Giants,1,2,0,3,0,17,292,119,0,0,8,8
+15. Tennessee Titans,1,0,0,1,0,33,184,116,1,0,7,7
+16. New York Jets,1,4,1,0,0,27,197,60,0,0,6,6
+17. Buffalo Bills,1,1,0,0,0,22,251,85,1,0,6,6
+18. Cincinnati Bengals,1,2,0,2,0,7,177,149,0,0,6,6
+19. Denver Broncos,1,3,0,1,0,26,255,129,0,0,5,5
+20. Houston Texans,1,1,1,0,0,30,226,193,0,0,3,3
+21. San Diego Chargers,1,3,0,0,0,10,205,87,0,0,3,3
+22. Oakland Raiders,1,2,0,0,0,16,221,76,0,0,2,2
+23. Jacksonville Jaguars,1,2,0,0,0,44,385,144,0,0,2,2
+24. San Francisco 49ers,1,0,1,0,0,23,254,84,0,0,2,2
+25. Cleveland Browns,1,0,0,1,0,23,217,160,0,0,2,2
+26. New England Patriots,1,0,0,1,0,9,174,67,0,0,2,2
+27. New Orleans Saints,1,2,0,0,0,9,188,59,0,0,2,2
+28. Washington Redskins,1,0,1,0,0,37,325,54,0,0,2,2
+29. Arizona Cardinals,1,1,0,0,0,14,236,82,0,0,1,1
+30. Baltimore Ravens,1,1,0,0,0,21,284,91,0,0,1,1
+31. Carolina Panthers,1,1,0,0,0,37,190,264,0,0,1,1
+32. Minnesota Vikings,1,1,0,0,0,20,288,108,0,0,1,1
+Week 4,,,,,,,,,,,,
+1. Philadelphia Eagles,1,4,0,1,1,26,189,218,0,1,18,18
+2. Miami Dolphins,1,2,1,3,1,14,264,53,0,0,16,16
+3. Kansas City Chiefs,1,3,1,2,1,14,215,75,0,0,15,15
+4. New York Giants,1,2,2,4,0,14,243,86,0,0,14,14
+5. Houston Texans,1,2,0,2,1,17,220,96,0,0,12,12
+6. San Diego Chargers,1,3,1,2,0,14,234,85,0,0,9,9
+7. San Francisco 49ers,1,1,2,2,0,21,191,22,0,0,9,9
+8. Indianapolis Colts,1,3,1,2,0,17,176,85,0,0,9,9
+9. Buffalo Bills,1,2,1,2,0,23,264,37,0,0,8,8
+10. Dallas Cowboys,1,2,2,1,0,17,334,104,0,0,8,8
+11. Tampa Bay Buccaneers,1,5,1,0,0,24,305,85,0,0,7,7
+12. Detroit Lions,1,2,1,1,0,17,204,132,0,0,6,6
+13. Oakland Raiders,1,0,2,1,0,38,278,157,0,0,6,6
+14. Minnesota Vikings,1,1,0,2,0,28,288,123,0,0,5,5
+15. Green Bay Packers,1,1,0,2,0,17,261,235,0,0,5,5
+16. Baltimore Ravens,1,2,1,0,0,10,248,67,0,0,4,4
+17. New York Jets,1,4,0,0,0,24,272,88,0,0,4,4
+18. Washington Redskins,1,1,0,1,0,45,295,154,0,0,3,3
+19. Pittsburgh Steelers,1,1,0,1,0,27,287,63,0,0,3,3
+20. Tennessee Titans,1,0,0,1,0,41,393,105,0,0,2,2
+21. New England Patriots,1,2,0,0,0,41,236,207,0,0,2,2
+22. Jacksonville Jaguars,1,2,0,0,0,33,365,42,0,0,2,2
+23. Chicago Bears,1,1,0,0,0,38,302,56,0,0,1,1
+24. New Orleans Saints,1,1,0,0,0,38,255,190,0,0,1,1
+25. Atlanta Falcons,1,0,0,0,0,41,317,241,0,0,0,0
+26. Carolina Panthers,1,0,0,0,0,38,327,127,0,0,0,0
+Week 5,,,,,,,,,,,,
+1. Green Bay Packers,1,6,1,2,1,10,188,111,0,0,18,18
+2. Carolina Panthers,1,4,2,2,0,24,262,85,0,1,18,18
+3. Philadelphia Eagles,1,4,3,0,1,28,341,125,0,0,16,16
+4. New England Patriots,1,1,3,0,1,17,241,79,0,0,13,13
+5. Tampa Bay Buccaneers,1,0,0,3,1,37,371,140,0,0,12,12
+6. Pittsburgh Steelers,1,1,0,2,1,9,187,56,0,0,11,11
+7. Indianapolis Colts,1,4,2,1,0,13,197,90,0,0,10,10
+8. Buffalo Bills,1,6,1,1,0,14,194,69,0,0,10,10
+9. Detroit Lions,1,2,0,1,1,17,294,49,0,0,10,10
+10. Baltimore Ravens,1,1,2,2,0,20,305,117,0,0,9,9
+11. Chicago Bears,1,2,2,1,0,31,231,90,0,0,8,8
+12. Tennessee Titans,1,1,0,1,0,29,285,175,1,0,8,8
+13. Houston Texans,1,1,2,1,0,20,316,140,0,0,7,7
+14. San Diego Chargers,1,2,1,1,0,0,60,91,0,0,6,6
+15. Jacksonville Jaguars,1,4,1,0,0,17,261,111,0,0,6,6
+16. St. Louis Rams,1,0,2,1,0,34,207,145,0,0,6,6
+17. Arizona Cardinals,1,1,0,2,0,41,476,92,0,0,5,5
+18. Atlanta Falcons,1,1,2,0,0,30,193,124,0,0,5,5
+19. New York Jets,1,3,0,1,0,31,277,162,0,0,5,5
+20. Minnesota Vikings,1,2,0,1,0,42,164,156,0,0,4,4
+21. Kansas City Chiefs,1,3,0,0,0,22,186,171,0,0,3,3
+22. Cleveland Browns,1,3,0,0,0,28,261,149,0,0,3,3
+23. New Orleans Saints,1,1,0,1,0,31,248,66,0,0,3,3
+24. Washington Redskins,1,3,0,0,0,27,178,225,0,0,3,3
+25. New York Giants,1,1,0,1,0,20,307,90,0,0,3,3
+26. Denver Broncos,1,3,0,0,0,20,178,37,0,0,3,3
+27. San Francisco 49ers,1,0,0,1,0,17,158,107,0,0,2,2
+28. Dallas Cowboys,1,0,0,1,0,17,154,176,0,0,2,2
+29. Seattle Seahawks,1,1,0,0,0,17,275,32,0,0,1,1
+30. Cincinnati Bengals,1,1,0,0,0,43,285,220,0,0,1,1
+Week 6,,,,,,,,,,,,
+1. Arizona Cardinals,1,2,1,3,1,20,335,72,0,0,16,16
+2. Denver Broncos,1,4,1,1,1,17,173,31,0,0,14,14
+3. Detroit Lions,1,8,0,3,0,3,143,69,0,0,14,14
+4. Houston Texans,1,3,1,1,1,33,363,93,0,0,13,13
+5. San Francisco 49ers,1,5,0,1,1,17,216,93,0,0,13,13
+6. New England Patriots,1,5,2,1,0,22,268,68,0,0,11,11
+7. Philadelphia Eagles,1,8,1,0,0,0,168,85,0,0,10,10
+8. Tennessee Titans,1,6,1,1,0,14,297,82,0,0,10,10
+9. Indianapolis Colts,1,5,2,0,0,28,196,136,0,0,9,9
+10. Green Bay Packers,1,1,1,2,0,24,237,112,0,0,7,7
+11. Baltimore Ravens,1,5,0,1,0,17,277,87,0,0,7,7
+12. Chicago Bears,1,4,0,1,0,13,245,42,0,0,6,6
+13. Seattle Seahawks,1,1,2,0,0,30,239,162,0,0,5,5
+14. Carolina Panthers,1,1,0,2,0,37,320,193,0,0,5,5
+15. New York Giants,1,1,0,2,0,27,245,203,0,0,5,5
+16. Minnesota Vikings,1,4,0,0,0,17,155,100,0,0,4,4
+17. Cleveland Browns,1,2,0,1,0,10,221,138,0,0,4,4
+18. Dallas Cowboys,1,2,0,1,0,23,126,80,0,0,4,4
+19. Pittsburgh Steelers,1,1,1,0,0,31,210,158,0,0,3,3
+20. Atlanta Falcons,1,3,0,0,0,27,368,110,0,0,3,3
+21. Jacksonville Jaguars,1,3,0,0,0,16,220,70,0,0,3,3
+22. Miami Dolphins,1,3,0,0,0,27,248,121,0,0,3,3
+23. San Diego Chargers,1,0,0,1,0,28,282,114,0,0,2,2
+24. Buffalo Bills,1,2,0,0,0,37,346,50,0,0,2,2
+25. St. Louis Rams,1,0,1,0,0,31,343,89,0,0,2,2
+26. Tampa Bay Buccaneers,1,0,1,0,0,48,306,169,0,0,2,2
+27. Cincinnati Bengals,1,0,0,1,0,37,284,147,0,0,2,2
+28. New York Jets,1,2,0,0,0,31,221,138,0,0,2,2
+29. Washington Redskins,1,1,0,0,0,30,243,74,0,0,1,1
+30. Oakland Raiders,1,1,0,0,0,31,307,116,0,0,1,1
+Week 7,,,,,,,,,,,,
+1. Minnesota Vikings,1,6,3,1,0,17,255,118,0,0,14,14
+2. Atlanta Falcons,1,1,1,2,0,29,248,123,1,0,12,12
+3. Buffalo Bills,1,5,0,2,0,16,118,158,0,0,9,9
+4. Jacksonville Jaguars,1,3,2,1,0,6,197,69,0,0,9,9
+5. Miami Dolphins,1,3,2,1,0,14,172,52,0,0,9,9
+6. St. Louis Rams,1,3,0,0,0,26,292,171,0,1,9,9
+7. Cleveland Browns,1,2,0,3,0,24,151,185,0,0,8,8
+8. Denver Broncos,1,6,0,1,0,17,248,62,0,0,8,8
+9. Pittsburgh Steelers,1,1,2,1,0,23,261,132,0,0,7,7
+10. Baltimore Ravens,1,5,1,0,0,7,186,68,0,0,7,7
+11. Tennessee Titans,1,3,1,1,0,19,251,100,0,0,7,7
+12. New Orleans Saints,1,3,0,2,0,24,285,59,0,0,7,7
+13. Cincinnati Bengals,1,2,2,0,0,27,335,171,0,0,6,6
+14. Green Bay Packers,1,3,0,1,0,17,223,108,0,0,5,5
+15. Houston Texans,1,3,1,0,0,30,252,76,0,0,5,5
+16. Washington Redskins,1,1,1,1,0,17,160,76,0,0,5,5
+17. Detroit Lions,1,1,1,1,0,23,335,73,0,0,5,5
+18. Indianapolis Colts,1,4,0,0,0,0,103,32,0,0,4,4
+19. Kansas City Chiefs,1,2,0,1,0,20,182,69,0,0,4,4
+20. Chicago Bears,1,4,0,0,0,27,256,137,0,0,4,4
+21. Dallas Cowboys,1,0,2,0,0,21,248,104,0,0,4,4
+22. New York Giants,1,2,0,1,0,31,267,156,0,0,4,4
+23. Oakland Raiders,1,1,0,1,0,24,242,123,0,0,3,3
+24. San Diego Chargers,1,3,0,0,0,23,211,154,0,0,3,3
+25. New England Patriots,1,3,0,0,0,25,205,218,0,0,3,3
+26. Carolina Panthers,1,2,0,0,0,38,241,122,0,0,2,2
+27. San Francisco 49ers,1,2,0,0,0,42,304,115,0,0,2,2
+28. New York Jets,1,1,0,0,0,27,260,63,0,0,1,1
+29. Arizona Cardinals,1,1,0,0,0,13,164,56,0,0,1,1
+30. Seattle Seahawks,1,0,0,0,0,28,170,102,0,0,0,0
+Week 8,,,,,,,,,,,,
+1. Miami Dolphins,1,4,1,2,2,13,201,176,0,0,22,22
+2. Buffalo Bills,1,4,2,4,0,23,137,175,0,0,16,16
+3. Kansas City Chiefs,1,7,0,1,0,7,116,84,0,1,15,15
+4. Minnesota Vikings,1,5,1,1,1,13,159,66,0,0,15,15
+5. New England Patriots,1,3,1,1,1,23,231,153,0,0,13,13
+6. Pittsburgh Steelers,1,2,0,2,1,34,385,63,0,0,12,12
+7. New Orleans Saints,1,4,1,2,0,23,402,89,0,0,10,10
+8. Cleveland Browns,1,3,2,1,0,13,316,71,0,0,9,9
+9. Washington Redskins,1,5,2,0,0,17,224,166,0,0,9,9
+10. Seattle Seahawks,1,3,1,1,0,9,152,114,0,0,7,7
+11. Arizona Cardinals,1,0,1,2,0,20,411,110,0,0,6,6
+12. Houston Texans,1,2,1,1,0,16,290,36,0,0,6,6
+13. Baltimore Ravens,1,2,1,1,0,27,239,111,0,0,6,6
+14. Denver Broncos,1,2,0,2,0,21,245,61,0,0,6,6
+15. Jacksonville Jaguars,1,3,0,1,0,27,178,148,0,0,5,5
+16. Carolina Panthers,1,1,1,1,0,13,191,119,0,0,5,5
+17. Cincinnati Bengals,1,1,0,2,0,24,187,107,0,0,5,5
+18. Tennessee Titans,1,5,0,0,0,30,193,212,0,0,5,5
+19. Dallas Cowboys,1,3,0,1,0,20,286,123,0,0,5,5
+20. Green Bay Packers,1,2,1,0,0,44,302,193,0,0,4,4
+21. Indianapolis Colts,1,0,2,0,0,51,522,117,0,0,4,4
+22. St. Louis Rams,1,2,1,0,0,34,218,143,0,0,4,4
+23. New York Jets,1,4,0,0,0,43,213,67,0,0,4,4
+24. Detroit Lions,1,2,0,1,0,21,213,78,0,0,4,4
+25. Philadelphia Eagles,1,0,1,0,0,24,329,71,0,0,2,2
+26. Atlanta Falcons,1,0,0,1,0,22,325,60,0,0,2,2
+27. Oakland Raiders,1,1,0,0,0,23,267,39,0,0,1,1
+28. Chicago Bears,1,1,0,0,0,51,365,122,0,0,1,1
+29. Tampa Bay Buccaneers,1,1,0,0,0,19,235,97,0,0,1,1
+30. San Diego Chargers,1,0,0,0,0,35,286,139,0,0,0,0
+Week 9,,,,,,,,,,,,
+1. Houston Texans,1,4,1,3,1,31,293,190,0,0,18,18
+2. Seattle Seahawks,1,1,1,2,1,24,189,37,0,0,13,13
+3. Miami Dolphins,1,4,1,3,0,0,128,50,0,0,12,12
+4. St. Louis Rams,1,8,2,0,0,10,183,80,0,0,12,12
+5. Baltimore Ravens,1,3,1,0,0,43,321,55,0,1,11,11
+6. New England Patriots,1,1,0,2,0,21,429,43,0,1,11,11
+7. Jacksonville Jaguars,1,2,0,2,0,33,232,191,1,0,11,11
+8. Dallas Cowboys,1,2,0,1,1,28,237,102,0,0,10,10
+9. Carolina Panthers,1,4,1,1,0,28,270,105,0,0,8,8
+10. New Orleans Saints,1,4,1,1,0,10,122,109,0,0,8,8
+11. Pittsburgh Steelers,1,4,1,1,0,23,269,63,0,0,8,8
+12. Minnesota Vikings,1,5,0,1,0,26,225,122,0,0,7,7
+13. Tampa Bay Buccaneers,1,3,0,2,0,22,280,50,0,0,7,7
+14. Cleveland Browns,1,2,0,2,0,17,252,113,0,0,6,6
+15. Philadelphia Eagles,1,4,0,1,0,21,182,118,0,0,6,6
+16. Arizona Cardinals,1,1,0,2,0,17,174,92,0,0,5,5
+17. San Francisco 49ers,1,1,0,2,0,13,102,91,0,0,5,5
+18. Indianapolis Colts,1,3,1,0,0,24,349,89,0,0,5,5
+19. Cincinnati Bengals,1,2,0,1,0,23,233,132,0,0,4,4
+20. Denver Broncos,1,1,0,1,0,43,332,66,0,0,3,3
+21. Kansas City Chiefs,1,3,0,0,0,10,225,139,0,0,3,3
+22. Washington Redskins,1,2,0,0,0,29,252,100,0,0,2,2
+23. New York Giants,1,1,0,0,0,40,345,98,0,0,1,1
+24. New York Jets,1,1,0,0,0,24,196,113,0,0,1,1
+25. Oakland Raiders,1,1,0,0,0,30,177,149,0,0,1,1
+26. San Diego Chargers,1,0,0,0,0,37,309,132,0,0,0,0
+Week 10,,,,,,,,,,,,
+1. Philadelphia Eagles,1,9,2,3,1,21,215,102,0,1,31,31
+2. Arizona Cardinals,1,6,1,2,2,14,174,70,0,0,24,24
+3. Green Bay Packers,1,4,1,2,1,14,256,55,0,0,16,16
+4. Dallas Cowboys,1,4,2,1,0,17,262,71,1,0,15,15
+5. Atlanta Falcons,1,4,1,2,0,17,281,92,0,0,10,10
+6. New York Jets,1,2,2,2,0,13,326,36,0,0,10,10
+7. Cleveland Browns,1,2,1,3,0,3,79,86,0,0,10,10
+8. Baltimore Ravens,1,5,1,1,0,7,143,67,0,0,9,9
+9. San Francisco 49ers,1,2,1,2,0,24,287,136,0,0,8,8
+10. Buffalo Bills,1,6,1,0,0,17,151,127,0,0,8,8
+11. Chicago Bears,1,0,1,0,0,55,319,132,0,1,8,8
+12. New York Giants,1,2,1,2,0,38,160,350,0,0,8,8
+13. Kansas City Chiefs,1,1,3,0,0,13,253,111,0,0,7,7
+14. Detroit Lions,1,3,1,1,0,16,178,50,0,0,7,7
+15. Seattle Seahawks,1,2,1,1,0,17,270,54,0,0,6,6
+16. New Orleans Saints,1,4,1,0,0,27,186,144,0,0,6,6
+17. Denver Broncos,1,0,1,2,0,17,192,30,0,0,6,6
+18. St. Louis Rams,1,3,0,1,0,31,307,28,0,0,5,5
+19. Miami Dolphins,1,3,0,1,0,20,288,63,0,0,5,5
+20. Oakland Raiders,1,0,0,2,0,41,353,118,0,0,4,4
+21. Pittsburgh Steelers,1,4,0,0,0,20,125,150,0,0,4,4
+22. Jacksonville Jaguars,1,1,1,0,0,31,248,151,0,0,3,3
+23. Cincinnati Bengals,1,0,1,0,0,24,198,170,0,0,2,2
+24. Tampa Bay Buccaneers,1,1,0,0,0,27,212,110,0,0,1,1
+25. Tennessee Titans,1,1,0,0,0,21,161,151,0,0,1,1
+26. Carolina Panthers,1,1,0,0,0,45,328,37,0,0,1,1
+Week 11,,,,,,,,,,,,
+1. Green Bay Packers,1,3,2,2,2,20,320,109,0,1,29,29
+2. Tampa Bay Buccaneers,1,6,1,2,1,7,167,155,0,0,18,18
+3. Buffalo Bills,1,5,2,0,0,22,205,125,1,0,14,14
+4. San Francisco 49ers,1,2,0,5,0,10,265,65,0,0,12,12
+5. Pittsburgh Steelers,1,0,0,1,1,24,263,49,0,0,8,8
+6. Tennessee Titans,1,5,0,1,0,27,180,206,0,0,7,7
+7. Arizona Cardinals,1,4,0,1,0,6,164,98,0,0,6,6
+8. Atlanta Falcons,1,2,0,2,0,17,285,106,0,0,6,6
+9. St. Louis Rams,1,2,0,2,0,7,369,28,0,0,6,6
+10. Houston Texans,1,2,1,1,0,7,317,58,0,0,6,6
+11. San Diego Chargers,1,2,1,0,0,6,162,71,0,0,4,4
+12. Indianapolis Colts,1,0,0,2,0,42,257,246,0,0,4,4
+13. Seattle Seahawks,1,0,2,0,0,24,108,190,0,0,4,4
+14. Carolina Panthers,1,2,1,0,0,19,260,86,0,0,4,4
+15. Minnesota Vikings,1,0,0,2,0,21,330,138,0,0,4,4
+16. Chicago Bears,1,2,0,1,0,13,147,96,0,0,4,4
+17. Washington Redskins,1,2,1,0,0,27,281,48,0,0,4,4
+18. Detroit Lions,1,0,0,2,0,14,306,46,0,0,4,4
+19. New England Patriots,1,1,0,1,0,20,303,19,0,0,3,3
+20. New York Giants,1,1,1,0,0,16,185,148,0,0,3,3
+21. Denver Broncos,1,3,0,0,0,22,206,131,0,0,3,3
+22. Kansas City Chiefs,1,2,0,0,0,20,168,204,0,0,2,2
+23. Miami Dolphins,1,2,0,0,0,9,183,54,0,0,2,2
+24. Cincinnati Bengals,1,0,1,0,0,10,255,75,0,0,2,2
+25. Cleveland Browns,1,0,0,1,0,23,211,213,0,0,2,2
+26. Oakland Raiders,1,2,0,0,0,13,180,120,0,0,2,2
+27. New Orleans Saints,1,1,0,0,0,27,219,186,0,0,1,1
+28. Philadelphia Eagles,1,1,0,0,0,53,365,110,0,0,1,1
+Week 12,,,,,,,,,,,,
+1. Philadelphia Eagles,1,5,2,1,0,24,299,52,0,1,17,17
+2. St. Louis Rams,1,3,2,1,1,27,282,128,0,0,15,15
+3. Houston Texans,1,0,0,1,1,22,233,139,1,0,13,13
+4. San Diego Chargers,1,1,1,2,1,24,210,107,0,0,13,13
+5. Chicago Bears,1,5,2,2,0,13,301,66,0,0,13,13
+6. Baltimore Ravens,1,4,0,1,1,27,399,126,0,0,12,12
+7. Jacksonville Jaguars,1,5,3,0,0,23,214,175,0,0,11,11
+8. Buffalo Bills,1,7,0,1,0,3,126,92,0,0,9,9
+9. Indianapolis Colts,1,4,1,1,0,3,114,80,0,0,8,8
+10. Washington Redskins,1,2,2,1,0,17,246,66,0,0,8,8
+11. Arizona Cardinals,1,7,0,0,0,19,169,124,0,0,7,7
+12. Atlanta Falcons,1,1,0,3,0,26,313,162,0,0,7,7
+13. San Francisco 49ers,1,5,1,0,0,13,77,136,0,0,7,7
+14. Cleveland Browns,1,3,1,1,0,24,252,63,0,0,7,7
+15. Tennessee Titans,1,2,0,2,0,43,298,164,0,0,6,6
+16. Seattle Seahawks,1,3,0,1,0,3,140,64,0,0,5,5
+17. Tampa Bay Buccaneers,1,3,1,0,0,21,112,92,0,0,5,5
+18. New England Patriots,1,2,0,1,0,9,244,91,0,0,4,4
+19. Dallas Cowboys,1,2,0,1,0,28,328,89,0,0,4,4
+20. New York Giants,1,2,1,0,0,31,266,119,0,0,4,4
+21. Green Bay Packers,1,2,0,1,0,21,196,112,0,0,4,4
+22. Kansas City Chiefs,1,1,1,0,0,24,172,179,0,0,3,3
+23. Miami Dolphins,1,1,1,0,0,39,249,201,0,0,3,3
+24. Cincinnati Bengals,1,1,0,1,0,13,184,64,0,0,3,3
+25. New Orleans Saints,1,1,1,0,0,34,234,215,0,0,3,3
+26. Denver Broncos,1,1,0,1,0,36,216,97,0,0,3,3
+27. Oakland Raiders,1,2,0,0,0,20,217,96,0,0,2,2
+28. Detroit Lions,1,0,0,1,0,34,349,90,0,0,2,2
+29. Minnesota Vikings,1,1,0,0,0,24,207,155,0,0,1,1
+30. New York Jets,1,1,0,0,0,38,220,116,0,0,1,1
+Week 13,,,,,,,,,,,,
+1. Jacksonville Jaguars,1,4,3,0,2,24,213,116,0,0,22,22
+2. St. Louis Rams,1,6,2,3,1,0,183,61,0,0,22,22
+3. Indianapolis Colts,1,6,1,0,1,27,341,84,0,0,14,14
+4. Buffalo Bills,1,2,1,2,1,10,241,74,0,0,14,14
+5. Denver Broncos,1,6,2,1,0,16,110,41,0,0,12,12
+6. Houston Texans,1,3,1,3,0,21,237,83,0,0,11,11
+7. Philadelphia Eagles,1,4,1,2,0,10,174,93,0,0,10,10
+8. Seattle Seahawks,1,4,1,2,0,3,100,64,0,0,10,10
+9. Arizona Cardinals,1,1,0,1,1,29,358,142,0,0,9,9
+10. Tampa Bay Buccaneers,1,2,0,3,0,14,176,112,0,0,8,8
+11. Tennessee Titans,1,0,1,0,1,45,358,99,0,0,8,8
+12. New York Giants,1,7,0,0,0,25,140,118,0,0,7,7
+13. Washington Redskins,1,1,2,1,0,49,361,126,0,0,7,7
+14. Detroit Lions,1,3,0,2,0,17,256,13,0,0,7,7
+15. Atlanta Falcons,1,0,1,2,0,18,294,35,0,0,6,6
+16. Baltimore Ravens,1,2,1,1,0,34,376,64,0,0,6,6
+17. Minnesota Vikings,1,4,0,1,0,13,170,178,0,0,6,6
+18. Cleveland Browns,1,1,0,2,0,26,181,106,0,0,5,5
+19. New Orleans Saints,1,1,0,2,0,32,435,103,0,0,5,5
+20. New York Jets,1,2,0,1,0,16,217,74,0,0,4,4
+21. Chicago Bears,1,2,1,0,0,34,383,91,0,0,4,4
+22. Miami Dolphins,1,2,0,1,0,13,49,277,0,0,4,4
+23. San Francisco 49ers,1,4,0,0,0,19,222,157,0,0,4,4
+24. Carolina Panthers,1,3,0,0,0,31,118,92,0,0,3,3
+25. Kansas City Chiefs,1,1,1,0,0,29,174,214,0,0,3,3
+26. Cincinnati Bengals,1,1,0,1,0,13,188,75,0,0,3,3
+27. New England Patriots,1,3,0,0,0,26,348,130,0,0,3,3
+28. Dallas Cowboys,1,1,1,0,0,33,208,256,0,0,3,3
+29. Green Bay Packers,1,1,0,0,0,21,236,84,0,0,1,1
+30. Oakland Raiders,1,1,0,0,0,52,176,172,0,0,1,1
+31. Pittsburgh Steelers,1,1,0,0,0,35,250,143,0,0,1,1
+32. San Diego Chargers,1,0,0,0,0,33,225,125,0,0,0,0
+Week 14,,,,,,,,,,,,
+1. Cleveland Browns,1,3,2,2,2,25,269,93,0,0,23,23
+2. New York Giants,1,8,1,2,1,7,146,61,0,0,20,20
+3. Minnesota Vikings,1,3,1,1,1,24,242,168,1,0,18,18
+4. St. Louis Rams,1,7,0,2,0,0,179,27,0,1,17,17
+5. Detroit Lions,1,6,1,2,0,17,207,26,0,0,12,12
+6. San Diego Chargers,1,1,1,1,1,23,310,87,0,0,11,11
+7. Denver Broncos,1,4,1,2,0,17,341,74,0,0,10,10
+8. Arizona Cardinals,1,5,1,1,0,14,264,126,0,0,9,9
+9. Oakland Raiders,1,5,0,2,0,13,151,97,0,0,9,9
+10. Tennessee Titans,1,0,0,1,1,36,260,142,0,0,8,8
+11. New York Jets,1,3,1,1,0,30,297,114,0,0,7,7
+12. Pittsburgh Steelers,1,3,2,0,0,21,322,86,0,0,7,7
+13. Seattle Seahawks,1,3,1,1,0,14,82,57,0,0,7,7
+14. Houston Texans,1,4,0,1,0,13,188,74,0,0,6,6
+15. Philadelphia Eagles,1,2,2,0,0,24,252,188,0,0,6,6
+16. Baltimore Ravens,1,6,0,0,0,13,186,63,0,0,6,6
+17. Buffalo Bills,1,0,1,2,0,24,173,133,0,0,6,6
+18. Carolina Panthers,1,2,1,1,0,10,218,92,0,0,6,6
+19. New England Patriots,1,4,0,1,0,14,163,53,0,0,6,6
+20. Tampa Bay Buccaneers,1,4,1,0,0,34,294,113,0,0,6,6
+21. Indianapolis Colts,1,1,0,2,0,24,137,111,0,0,5,5
+22. Dallas Cowboys,1,0,1,1,0,28,341,35,0,0,4,4
+23. Washington Redskins,1,4,0,0,0,24,198,131,0,0,4,4
+24. Green Bay Packers,1,1,0,1,0,37,374,91,0,0,3,3
+25. Miami Dolphins,1,1,0,1,0,28,264,183,0,0,3,3
+26. Jacksonville Jaguars,1,2,0,0,0,27,131,173,0,0,2,2
+27. Kansas City Chiefs,1,2,0,0,0,17,225,141,0,0,2,2
+28. Atlanta Falcons,1,1,0,0,0,43,323,179,0,0,1,1
+29. Chicago Bears,1,1,0,0,0,41,203,194,0,0,1,1
+30. San Francisco 49ers,1,1,0,0,0,24,245,85,0,0,1,1
+31. Cincinnati Bengals,1,0,0,0,0,42,350,193,0,0,0,0
+32. New Orleans Saints,1,0,0,0,0,41,226,271,0,0,0,0
+Week 15,,,,,,,,,,,,
+1. New Orleans Saints,1,7,0,3,0,15,153,125,0,0,13,13
+2. Houston Texans,1,2,1,1,1,17,168,110,0,0,12,12
+3. Kansas City Chiefs,1,4,1,0,0,13,202,78,0,1,12,12
+4. Dallas Cowboys,1,4,2,2,0,27,219,75,0,0,12,12
+5. Buffalo Bills,1,1,0,2,0,13,175,158,0,1,11,11
+6. Green Bay Packers,1,3,0,1,0,21,140,113,1,0,10,10
+7. Baltimore Ravens,1,8,0,1,0,12,166,82,0,0,10,10
+8. Carolina Panthers,1,3,2,1,0,17,136,151,0,0,9,9
+9. New York Giants,1,7,1,0,0,13,228,144,0,0,9,9
+10. New York Jets,1,1,1,0,0,11,253,89,1,0,8,8
+11. Pittsburgh Steelers,1,0,0,1,1,20,310,97,0,0,8,8
+12. New England Patriots,1,4,0,2,0,13,308,76,0,0,8,8
+13. Detroit Lions,1,4,0,2,0,14,284,76,0,0,8,8
+14. San Francisco 49ers,1,5,0,1,0,17,138,152,0,0,7,7
+15. Cincinnati Bengals,1,3,0,2,0,0,54,53,0,0,7,7
+16. Arizona Cardinals,1,2,1,1,0,6,211,69,0,0,6,6
+17. Seattle Seahawks,1,6,0,0,0,7,105,140,0,0,6,6
+18. Philadelphia Eagles,1,3,1,0,0,38,249,115,0,0,5,5
+19. Indianapolis Colts,1,1,1,1,0,10,152,137,0,0,5,5
+20. Tampa Bay Buccaneers,1,3,1,0,0,19,269,121,0,0,5,5
+21. Chicago Bears,1,2,1,0,0,31,360,83,0,0,4,4
+22. Cleveland Browns,1,2,0,1,0,30,103,244,0,0,4,4
+23. Denver Broncos,1,0,0,2,0,10,232,56,0,0,4,4
+24. Oakland Raiders,1,1,1,0,0,31,295,93,0,0,3,3
+25. Tennessee Titans,1,3,0,0,0,16,163,114,0,0,3,3
+26. Washington Redskins,1,1,1,0,0,24,238,49,0,0,3,3
+27. Jacksonville Jaguars,1,0,1,0,0,20,221,93,0,0,2,2
+28. Miami Dolphins,1,0,0,1,0,41,287,108,0,0,2,2
+29. Atlanta Falcons,1,1,0,0,0,27,353,45,0,0,1,1
+30. San Diego Chargers,1,1,0,0,0,22,226,111,0,0,1,1
+31. St. Louis Rams,1,1,0,0,0,12,131,143,0,0,1,1
+32. Minnesota Vikings,1,0,0,0,0,16,153,80,0,0,0,0
+Week 16,,,,,,,,,,,,
+1. Atlanta Falcons,1,5,2,2,1,14,271,57,0,0,19,19
+2. Cincinnati Bengals,1,2,0,4,1,28,300,85,0,0,16,16
+3. San Diego Chargers,1,2,3,0,1,35,92,355,0,0,14,14
+4. San Francisco 49ers,1,2,0,3,1,38,348,98,0,0,14,14
+5. Minnesota Vikings,1,2,1,1,0,37,377,116,1,0,11,11
+6. Chicago Bears,1,4,1,2,0,20,229,138,0,0,10,10
+7. Denver Broncos,1,0,1,1,1,37,146,207,0,0,10,10
+8. Green Bay Packers,1,7,0,1,0,3,93,16,0,0,9,9
+9. Houston Texans,1,2,0,3,0,13,178,33,0,0,8,8
+10. Pittsburgh Steelers,1,6,1,0,0,12,288,39,0,0,8,8
+11. Dallas Cowboys,1,2,1,2,0,7,228,1,0,0,8,8
+12. New York Giants,1,2,2,1,0,27,281,106,0,0,8,8
+13. Washington Redskins,1,3,1,1,0,24,361,134,0,0,7,7
+14. New York Jets,1,4,0,1,0,17,146,85,0,0,6,6
+15. Oakland Raiders,1,2,0,2,0,24,308,13,0,0,6,6
+16. Philadelphia Eagles,1,2,1,1,0,27,205,100,0,0,6,6
+17. Seattle Seahawks,1,4,0,1,0,6,187,29,0,0,6,6
+18. Miami Dolphins,1,4,0,1,0,35,238,119,0,0,6,6
+19. Carolina Panthers,1,3,0,1,0,13,144,84,0,0,5,5
+20. Cleveland Browns,1,1,1,1,0,17,195,209,0,0,5,5
+21. Jacksonville Jaguars,1,4,0,0,0,13,262,95,0,0,4,4
+22. New England Patriots,1,2,0,1,0,16,191,116,0,0,4,4
+23. Tennessee Titans,1,4,0,0,0,21,111,177,0,0,4,4
+24. Detroit Lions,1,2,0,1,0,14,170,64,0,0,4,4
+25. Indianapolis Colts,1,1,1,0,0,42,250,127,0,0,3,3
+26. Tampa Bay Buccaneers,1,1,1,0,0,20,310,121,0,0,3,3
+27. Baltimore Ravens,1,0,0,1,0,25,190,123,0,0,2,2
+28. Arizona Cardinals,1,1,0,0,0,35,329,267,0,0,1,1
+29. Buffalo Bills,1,1,0,0,0,26,207,140,0,0,1,1
+30. Kansas City Chiefs,1,1,0,0,0,20,214,68,0,0,1,1
+31. St. Louis Rams,1,1,0,0,0,37,386,128,0,0,1,1
+32. New Orleans Saints,1,0,0,0,0,30,322,81,0,0,0,0
+Week 17,,,,,,,,,,,,
+1. Carolina Panthers,1,6,1,2,2,3,225,63,0,0,24,24
+2. Jacksonville Jaguars,1,3,1,1,1,23,235,123,1,0,18,18
+3. Dallas Cowboys,1,3,2,2,1,17,309,104,0,0,17,17
+4. Seattle Seahawks,1,4,1,2,1,6,203,42,0,0,16,16
+5. Pittsburgh Steelers,1,3,1,2,0,17,221,116,0,1,15,15
+6. Kansas City Chiefs,1,7,1,2,0,7,249,112,0,0,13,13
+7. Tampa Bay Buccaneers,1,2,0,3,0,23,268,70,1,0,13,13
+8. Denver Broncos,1,3,1,1,1,14,132,67,0,0,13,13
+9. Green Bay Packers,1,2,1,0,0,20,202,111,0,1,10,10
+10. Detroit Lions,1,1,2,0,0,30,225,152,1,0,10,10
+11. New York Jets,1,7,1,0,0,24,208,179,0,0,9,9
+12. Oakland Raiders,1,1,1,0,1,47,309,142,0,0,9,9
+13. Baltimore Ravens,1,4,1,1,0,10,150,109,0,0,8,8
+14. San Francisco 49ers,1,2,0,3,0,17,299,98,0,0,8,8
+15. St. Louis Rams,1,3,1,1,0,20,222,132,0,0,7,7
+16. Indianapolis Colts,1,4,1,0,0,10,50,142,0,0,6,6
+17. Cincinnati Bengals,1,0,1,2,0,27,317,29,0,0,6,6
+18. New York Giants,1,4,0,1,0,34,262,164,0,0,6,6
+19. Houston Texans,1,5,0,0,0,17,112,121,0,0,5,5
+20. Chicago Bears,1,3,0,1,0,13,190,121,0,0,5,5
+21. New Orleans Saints,1,3,0,1,0,20,97,183,0,0,5,5
+22. Buffalo Bills,1,4,0,0,0,9,144,116,0,0,4,4
+23. San Diego Chargers,1,4,0,0,0,19,140,111,0,0,4,4
+24. New England Patriots,1,2,1,0,0,17,164,104,0,0,4,4
+25. Miami Dolphins,1,1,1,0,0,37,390,104,0,0,3,3
+26. Washington Redskins,1,1,0,1,0,44,283,174,0,0,3,3
+27. Philadelphia Eagles,1,0,0,1,0,26,429,76,0,0,2,2
+28. Minnesota Vikings,1,2,0,0,0,9,165,99,0,0,2,2
+29. Arizona Cardinals,1,1,0,0,0,20,189,206,0,0,1,1
+30. Atlanta Falcons,1,1,0,0,0,34,112,194,0,0,1,1
+31. Cleveland Browns,1,1,0,0,0,20,290,129,0,0,1,1
+32. Tennessee Titans,1,1,0,0,0,27,314,64,0,0,1,1
+2013,,,,,,,,,,,,
+Week 1,,,,,,,,,,,,
+1. Dallas Cowboys,1,3,3,3,2,31,428,50,0,0,21,21
+2. Kansas City Chiefs,1,6,0,2,1,2,107,71,1,0,16,16
+3. Washington Redskins,1,3,2,0,1,33,180,263,1,0,13,13
+4. Buffalo Bills,1,2,2,1,1,23,273,158,0,0,11,11
+5. Tennessee Titans,1,5,1,1,0,9,163,32,1,0,9,9
+6. Houston Texans,1,2,0,1,1,28,183,80,0,0,9,9
+7. Miami Dolphins,1,6,0,3,0,10,244,47,0,0,9,9
+8. Tampa Bay Buccaneers,1,5,1,1,0,18,214,90,1,0,9,9
+9. Arizona Cardinals,1,0,1,1,1,27,299,67,0,0,8,8
+10. Detroit Lions,1,3,1,3,0,24,225,105,0,0,7,7
+11. Denver Broncos,1,4,0,2,0,27,335,58,0,0,6,6
+12. Philadelphia Eagles,1,3,1,2,0,27,308,74,0,0,6,6
+13. St. Louis Rams,1,4,1,1,0,24,304,86,0,0,6,6
+14. New Orleans Saints,1,3,1,1,0,17,279,88,0,0,5,5
+15. New York Jets,1,3,1,1,0,17,185,65,0,0,5,5
+16. Baltimore Ravens,1,3,2,0,0,49,445,65,0,0,5,5
+17. Cleveland Browns,1,4,0,1,0,23,255,20,0,0,5,5
+18. Oakland Raiders,1,4,0,0,0,21,147,127,0,0,4,4
+19. Chicago Bears,1,1,1,2,0,21,277,63,0,0,4,4
+20. San Francisco 49ers,1,2,1,1,0,28,322,63,0,0,4,4
+21. New York Giants,1,2,0,1,0,36,244,87,0,0,3,3
+22. Atlanta Falcons,1,2,0,1,0,23,341,78,0,0,3,3
+23. Indianapolis Colts,1,1,0,2,0,17,201,171,0,0,3,3
+24. San Diego Chargers,1,2,0,1,0,31,329,120,0,0,3,3
+25. Carolina Panthers,1,2,1,0,0,12,300,70,0,0,3,3
+26. Seattle Seahawks,1,1,2,0,0,7,119,124,0,0,3,3
+27. Minnesota Vikings,1,1,1,1,0,34,352,117,0,0,3,3
+28. Green Bay Packers,1,2,0,0,0,34,404,90,0,0,2,2
+29. New England Patriots,1,0,2,0,0,21,150,136,0,0,2,2
+30. Pittsburgh Steelers,1,1,0,0,0,16,117,112,0,0,1,1
+31. Jacksonville Jaguars,1,1,0,0,0,28,171,120,0,0,1,1
+32. Cincinnati Bengals,1,0,0,1,0,24,242,81,0,0,1,1
+week 2,,,,,,,,,,,,
+1. Minnesota Vikings,1,1,2,2,1,31,282,129,0,1,17,17
+2. Tennessee Titans,1,2,0,2,1,30,280,172,1,0,12,12
+3. Tampa Bay Buccaneers,1,4,0,2,1,16,296,75,0,0,12,12
+4. Denver Broncos,1,1,0,4,0,23,353,23,0,1,11,11
+5. Chicago Bears,1,1,2,1,1,30,227,123,0,0,10,10
+6. Detroit Lions,1,1,0,1,1,25,261,87,0,0,8,8
+7. Seattle Seahawks,1,3,2,3,0,3,107,100,0,0,8,8
+8. New England Patriots,1,4,1,3,0,10,189,129,0,0,8,8
+9. Atlanta Falcons,1,0,0,1,1,24,352,69,0,0,7,7
+10. Buffalo Bills,1,6,0,1,0,23,183,125,0,0,7,7
+11. San Francisco 49ers,1,4,0,1,0,29,118,172,1,0,7,7
+12. Indianapolis Colts,1,5,1,0,0,24,297,101,0,0,6,6
+13. Washington Redskins,1,4,1,0,0,38,441,139,0,0,5,5
+14. Oakland Raiders,1,5,0,0,0,9,214,34,0,0,5,5
+15. Baltimore Ravens,1,5,0,0,0,6,194,65,0,0,5,5
+16. Kansas City Chiefs,1,3,2,0,0,16,281,37,0,0,5,5
+17. Houston Texans,1,4,0,0,0,24,129,119,0,0,4,4
+18. Jacksonville Jaguars,1,3,1,0,0,19,114,226,0,0,4,4
+19. Miami Dolphins,1,3,0,1,0,20,315,133,0,0,4,4
+20. Cincinnati Bengals,1,2,1,1,0,10,234,44,0,0,4,4
+21. Dallas Cowboys,1,4,0,0,0,17,199,114,0,0,4,4
+22. New Orleans Saints,1,1,1,1,0,14,113,160,0,0,3,3
+23. Philadelphia Eagles,1,1,2,0,0,33,413,126,0,0,3,3
+24. Carolina Panthers,1,1,1,1,0,24,287,149,0,0,3,3
+25. Cleveland Browns,1,2,1,0,0,14,197,99,0,0,3,3
+26. Arizona Cardinals,1,1,1,0,0,21,273,49,0,0,2,2
+27. Green Bay Packers,1,1,0,1,0,20,314,108,0,0,2,2
+28. San Diego Chargers,1,1,1,0,0,30,422,89,0,0,2,2
+29. St. Louis Rams,1,2,0,0,0,31,357,36,0,0,2,2
+30. New York Giants,1,0,1,0,0,41,307,109,0,0,1,1
+31. New York Jets,1,1,0,0,0,13,178,54,0,0,1,1
+32. Pittsburgh Steelers,1,0,0,0,0,20,280,127,0,0,0,0
+Week 3,,,,,,,,,,,,
+1. Chicago Bears,1,3,3,2,2,23,379,80,0,0,20,20
+2. Baltimore Ravens,1,3,0,1,1,9,170,94,0,1,16,16
+3. Kansas City Chiefs,1,5,3,2,1,16,171,260,0,0,16,16
+4. Green Bay Packers,1,4,3,1,1,34,215,82,0,0,14,14
+5. Carolina Panthers,1,7,1,2,0,0,90,60,0,0,10,10
+6. Cleveland Browns,1,6,2,1,0,27,195,134,0,0,9,9
+7. New York Jets,1,8,0,0,0,20,208,120,0,0,8,8
+8. Cincinnati Bengals,1,4,2,2,0,30,217,182,0,0,8,8
+9. Washington Redskins,1,1,0,1,1,27,378,63,0,0,8,8
+10. Atlanta Falcons,1,5,1,1,0,27,195,90,0,0,7,7
+11. Seattle Seahawks,1,4,1,2,0,17,214,51,0,0,7,7
+12. Minnesota Vikings,1,3,1,3,0,31,306,103,0,0,7,7
+13. Dallas Cowboys,1,6,1,0,0,7,197,35,0,0,7,7
+14. New Orleans Saints,1,4,0,2,0,7,161,86,0,0,6,6
+15. Arizona Cardinals,1,4,0,1,0,31,319,104,0,0,5,5
+16. Philadelphia Eagles,1,5,0,0,0,26,248,147,0,0,5,5
+17. Indianapolis Colts,1,3,1,1,0,7,139,115,0,0,5,5
+18. Jacksonville Jaguars,1,2,1,1,0,45,323,156,0,0,4,4
+19. New England Patriots,1,3,0,1,0,3,226,97,0,0,4,4
+20. Tampa Bay Buccaneers,1,3,0,1,0,23,202,156,0,0,4,4
+21. Detroit Lions,1,2,1,1,0,20,300,120,0,0,4,4
+22. Oakland Raiders,1,1,2,0,0,37,372,164,0,0,3,3
+23. Tennessee Titans,1,2,1,0,0,17,175,102,0,0,3,3
+24. Denver Broncos,1,3,0,0,0,21,293,49,0,0,3,3
+25. New York Giants,1,1,1,1,0,38,208,194,0,0,3,3
+26. Houston Texans,1,2,0,0,0,30,161,75,0,0,2,2
+27. Pittsburgh Steelers,1,2,0,0,0,40,151,107,0,0,2,2
+28. Buffalo Bills,1,0,0,2,0,27,331,182,0,0,2,2
+29. San Diego Chargers,1,2,0,0,0,20,282,170,0,0,2,2
+30. Miami Dolphins,1,0,1,1,0,23,231,146,0,0,2,2
+31. St. Louis Rams,1,1,1,0,0,31,203,193,0,0,2,2
+32. San Francisco 49ers,1,1,0,0,0,27,157,179,0,0,1,1
+Week 4.,,,,,,,,,,,,
+1. Tennessee Titans,1,5,2,2,1,13,239,91,0,0,15,15
+2. Washington Redskins,1,7,1,1,1,14,194,104,0,0,15,15
+3. Indianapolis Colts,1,4,0,3,1,3,165,40,0,0,13,13
+4. Seattle Seahawks,1,4,1,2,1,20,325,151,0,0,13,13
+5. Detroit Lions,1,3,1,3,1,32,286,131,0,0,13,13
+6. Kansas City Chiefs,1,3,2,1,0,7,200,98,0,1,12,12
+7. Buffalo Bills,1,4,0,5,0,20,321,24,0,0,9,9
+8. Denver Broncos,1,3,0,0,0,20,284,166,0,1,9,9
+9. New Orleans Saints,1,4,1,3,0,17,216,115,0,0,8,8
+10. Dallas Cowboys,1,1,0,1,1,30,394,112,0,0,8,8
+11. San Francisco 49ers,1,5,1,1,0,11,170,18,0,0,7,7
+12. Minnesota Vikings,1,5,1,1,0,27,357,77,0,0,7,7
+13. Houston Texans,1,5,1,1,0,23,91,179,0,0,7,7
+14. Arizona Cardinals,1,2,1,2,0,10,173,80,0,0,5,5
+15. Baltimore Ravens,1,2,1,2,0,23,147,203,0,0,5,5
+16. San Diego Chargers,1,3,1,0,0,21,225,92,0,0,4,4
+17. Chicago Bears,1,1,2,1,0,40,228,159,0,0,4,4
+18. St. Louis Rams,1,2,2,0,0,35,151,219,0,0,4,4
+19. Tampa Bay Buccaneers,1,1,1,2,0,13,240,56,0,0,4,4
+20. Cleveland Browns,1,2,1,1,0,6,203,63,0,0,4,4
+21. New York Giants,1,1,1,2,0,31,288,102,0,0,4,4
+22. Jacksonville Jaguars,1,2,0,1,0,37,283,154,0,0,3,3
+23. Miami Dolphins,1,2,1,0,0,38,397,68,0,0,3,3
+24. Cincinnati Bengals,1,3,0,0,0,17,247,89,0,0,3,3
+25. New England Patriots,1,2,0,1,0,23,399,58,0,0,3,3
+26. New York Jets,1,2,0,0,0,38,244,78,0,0,2,2
+27. Oakland Raiders,1,1,1,0,0,24,217,122,0,0,2,2
+28. Philadelphia Eagles,1,1,0,0,0,52,331,141,0,0,1,1
+29. Pittsburgh Steelers,1,1,0,0,0,34,248,145,0,0,1,1
+30. Atlanta Falcons,1,0,0,0,0,30,316,132,0,0,0,0
+Week 5,,,,,,,,,,,,
+1. Cleveland Browns,1,4,0,1,1,24,188,155,0,1,17,17
+2. Oakland Raiders,1,2,2,3,1,17,391,32,0,0,13,13
+3. Kansas City Chiefs,1,3,1,2,1,17,234,105,0,0,12,12
+4. Arizona Cardinals,1,7,1,3,0,6,258,95,0,0,11,11
+5. San Francisco 49ers,1,1,1,3,1,3,182,131,0,0,11,11
+6. St. Louis Rams,1,2,1,2,1,20,267,96,0,0,11,11
+7. Miami Dolphins,1,2,1,1,1,26,251,133,0,0,10,10
+8. Carolina Panthers,1,2,0,3,0,22,160,90,1,0,7,7
+9. Denver Broncos,1,4,1,1,0,48,470,52,0,0,6,6
+10. Baltimore Ravens,1,6,0,0,0,23,272,22,0,0,6,6
+11. Indianapolis Colts,1,2,1,1,0,28,205,218,1,0,6,6
+12. Cincinnati Bengals,1,4,1,1,0,6,166,82,0,0,6,6
+13. New England Patriots,1,4,1,1,0,13,179,162,0,0,6,6
+14. Green Bay Packers,1,5,0,0,0,9,222,64,0,0,5,5
+15. Philadelphia Eagles,1,1,1,3,0,21,330,53,0,0,5,5
+16. Buffalo Bills,1,5,0,0,0,37,199,91,0,0,5,5
+17. Atlanta Falcons,1,4,0,0,0,30,170,118,0,0,4,4
+18. San Diego Chargers,1,4,0,0,0,27,195,104,0,0,4,4
+19. Seattle Seahawks,1,2,2,0,0,34,208,109,0,0,4,4
+20. Tennessee Titans,1,2,1,1,0,26,233,120,0,0,4,4
+21. New Orleans Saints,1,3,1,0,0,18,340,94,0,0,4,4
+22. New York Jets,1,2,1,0,0,28,299,64,0,0,3,3
+23. Jacksonville Jaguars,1,2,0,0,0,34,208,143,0,0,2,2
+24. Chicago Bears,1,2,0,0,0,26,281,66,0,0,2,2
+25. Dallas Cowboys,1,0,1,1,0,51,414,103,0,0,2,2
+26. New York Giants,1,1,0,0,0,36,299,140,0,0,1,1
+27. Detroit Lions,1,1,0,0,0,22,269,180,0,0,1,1
+28. Houston Texans,1,1,0,0,0,34,107,177,0,0,1,1
+Week 6,,,,,,,,,,,,
+1. St. Louis Rams,1,5,2,2,2,13,267,153,0,0,21,21
+2. Kansas City Chiefs,1,10,0,3,1,7,149,125,0,0,19,19
+3. Dallas Cowboys,1,3,1,1,0,16,217,216,0,1,11,11
+4. Chicago Bears,1,1,0,3,1,21,232,123,0,0,10,10
+5. Tennessee Titans,1,2,2,0,1,20,253,151,0,0,10,10
+6. Jacksonville Jaguars,1,0,2,1,1,35,295,112,0,0,9,9
+7. Arizona Cardinals,1,2,1,1,0,32,238,149,1,0,6,6
+8. Cincinnati Bengals,1,5,1,0,0,24,192,130,0,0,6,6
+9. New Orleans Saints,1,5,0,1,0,30,235,141,0,0,6,6
+10. Green Bay Packers,1,5,1,0,0,17,313,47,0,0,6,6
+11. Pittsburgh Steelers,1,3,0,2,0,6,184,83,0,0,5,5
+12. Baltimore Ravens,1,3,1,1,0,19,298,140,0,0,5,5
+13. Seattle Seahawks,1,3,0,2,0,13,157,66,0,0,5,5
+14. Carolina Panthers,1,3,0,2,0,10,215,75,0,0,5,5
+15. San Francisco 49ers,1,1,2,2,0,20,294,109,0,0,5,5
+16. Buffalo Bills,1,3,0,1,0,27,318,165,0,0,4,4
+17. Denver Broncos,1,2,0,2,0,19,291,71,0,0,4,4
+18. New York Jets,1,4,0,0,0,19,255,73,0,0,4,4
+19. Detroit Lions,1,2,0,2,0,17,269,126,0,0,4,4
+20. Oakland Raiders,1,3,1,0,0,24,105,111,0,0,4,4
+21. Philadelphia Eagles,1,2,0,1,0,20,257,94,0,0,3,3
+22. New England Patriots,1,1,1,1,0,27,230,131,0,0,3,3
+23. Indianapolis Colts,1,2,0,0,0,19,227,147,0,0,2,2
+24. San Diego Chargers,1,1,0,1,0,9,193,74,0,0,2,2
+25. Tampa Bay Buccaneers,1,1,1,0,0,31,287,138,0,0,2,2
+26. Cleveland Browns,1,1,0,1,0,31,248,118,0,0,2,2
+27. Washington Redskins,1,1,0,1,0,31,165,48,0,0,2,2
+28. Minnesota Vikings,1,1,0,0,0,35,236,131,0,0,1,1
+29. Houston Texans,1,0,0,0,0,38,117,99,0,0,0,0
+30. New York Giants,1,0,0,0,0,27,262,110,0,0,0,0
+Week 7,,,,,,,,,,,,
+1. Carolina Panthers,1,4,2,1,1,15,254,63,1,0,15,15
+2. New York Jets,1,4,0,1,1,27,205,90,0,0,11,11
+3. Buffalo Bills,1,2,1,2,1,21,173,120,0,0,11,11
+4. San Francisco 49ers,1,3,1,1,1,17,298,70,0,0,11,11
+5. New England Patriots,1,4,0,1,1,30,206,177,0,0,11,11
+6. Atlanta Falcons,1,3,1,0,1,23,226,111,0,0,10,10
+7. Seattle Seahawks,1,7,0,2,0,22,204,30,0,0,9,9
+8. Minnesota Vikings,1,2,1,0,0,23,193,64,0,1,9,9
+9. Washington Redskins,1,2,0,1,1,41,219,140,0,0,9,9
+10. Chicago Bears,1,1,0,1,0,45,290,209,0,1,8,8
+11. San Diego Chargers,1,6,0,1,0,6,275,78,0,0,7,7
+12. Indianapolis Colts,1,4,2,1,0,33,365,64,0,0,7,7
+13. Kansas City Chiefs,1,5,1,0,0,16,221,73,0,0,6,6
+14. Dallas Cowboys,1,3,0,3,0,3,194,84,0,0,6,6
+15. Denver Broncos,1,2,1,0,0,39,213,121,1,0,5,5
+16. Arizona Cardinals,1,3,2,0,0,34,209,135,0,0,5,5
+17. Miami Dolphins,1,4,0,1,0,23,178,90,0,0,5,5
+18. New York Giants,1,1,2,1,0,7,176,30,0,0,4,4
+19. Philadelphia Eagles,1,2,0,2,0,17,294,74,0,0,4,4
+20. Green Bay Packers,1,3,0,1,0,13,133,83,0,0,4,4
+21. Houston Texans,1,2,1,1,0,17,231,126,0,0,4,4
+22. Baltimore Ravens,1,3,1,0,0,19,145,141,0,0,4,4
+23. St. Louis Rams,1,2,0,0,0,30,180,102,0,0,2,2
+24. Tennessee Titans,1,2,0,0,0,31,196,153,0,0,2,2
+25. Detroit Lions,1,1,0,0,0,27,364,57,0,0,1,1
+26. Pittsburgh Steelers,1,1,0,0,0,16,205,82,0,0,1,1
+27. Jacksonville Jaguars,1,1,0,0,0,24,276,158,0,0,1,1
+28. Tampa Bay Buccaneers,1,0,1,0,0,31,273,18,0,0,1,1
+29. Cleveland Browns,1,1,0,0,0,31,253,104,0,0,1,1
+30. Cincinnati Bengals,1,0,0,0,0,24,357,77,0,0,0,0
+week 8,,,,,,,,,,,,
+1. Cincinnati Bengals,1,4,0,2,2,9,147,93,0,0,18,18
+2. Denver Broncos,1,3,1,4,1,21,154,112,0,0,14,14
+3. Washington Redskins,1,2,1,3,1,45,339,107,0,0,12,12
+4. New England Patriots,1,6,1,2,0,17,145,156,0,0,9,9
+5. Green Bay Packers,1,3,0,0,0,31,132,111,0,1,9,9
+6. Arizona Cardinals,1,4,0,4,0,13,265,27,0,0,8,8
+7. Minnesota Vikings,1,2,0,0,0,44,282,182,0,1,8,8
+8. Philadelphia Eagles,1,1,1,0,1,15,237,88,0,0,8,8
+9. San Francisco 49ers,1,0,1,0,1,10,228,90,0,0,7,7
+10. St. Louis Rams,1,7,0,0,0,14,91,44,0,0,7,7
+11. New Orleans Saints,1,4,2,1,0,17,211,88,0,0,7,7
+12. New York Giants,1,4,1,2,0,7,153,48,0,0,7,7
+13. Oakland Raiders,1,5,0,2,0,18,241,35,0,0,7,7
+14. Cleveland Browns,1,6,0,0,0,23,195,136,0,0,6,6
+15. Seattle Seahawks,1,3,0,2,0,9,139,200,0,0,5,5
+16. Dallas Cowboys,1,1,2,2,0,31,480,143,0,0,5,5
+17. Pittsburgh Steelers,1,2,1,2,0,21,82,197,0,0,5,5
+18. Atlanta Falcons,1,3,0,1,0,27,147,201,0,0,4,4
+19. Miami Dolphins,1,3,0,1,0,27,100,152,0,0,4,4
+20. Buffalo Bills,1,4,0,0,0,35,309,77,0,0,4,4
+21. Carolina Panthers,1,3,1,0,0,13,249,48,0,0,4,4
+22. Tampa Bay Buccaneers,1,3,0,0,0,31,195,129,0,0,3,3
+23. Kansas City Chiefs,1,1,1,0,0,17,283,57,0,0,2,2
+24. New York Jets,1,1,0,1,0,49,323,79,0,0,2,2
+25. Jacksonville Jaguars,1,0,1,0,0,42,177,221,0,0,1,1
+26. Detroit Lions,1,0,0,0,0,30,206,62,0,0,0,0
+week 9,,,,,,,,,,,,
+1. Kansas City Chiefs,1,0,1,2,2,13,229,241,0,0,15,15
+2. Miami Dolphins,1,5,1,3,1,20,302,163,0,0,15,15
+3. Carolina Panthers,1,1,1,3,1,10,211,78,0,0,11,11
+4. Dallas Cowboys,1,2,1,1,1,23,224,169,0,0,10,10
+5. New England Patriots,1,5,1,2,0,31,371,108,0,0,8,8
+6. San Diego Chargers,1,0,0,1,1,30,291,209,0,0,7,7
+7. Cleveland Browns,1,5,1,1,0,18,223,55,0,0,7,7
+8. St. Louis Rams,1,4,0,2,0,28,165,198,0,0,6,6
+9. Chicago Bears,1,5,0,1,0,20,113,199,0,0,6,6
+10. Cincinnati Bengals,1,3,1,0,0,22,188,157,1,0,6,6
+11. Philadelphia Eagles,1,3,0,2,0,20,350,210,0,0,5,5
+12. Pittsburgh Steelers,1,3,1,0,0,55,413,197,0,0,4,4
+13. Houston Texans,1,4,0,0,0,27,245,69,0,0,4,4
+14. Baltimore Ravens,1,3,1,0,0,24,242,73,0,0,4,4
+15. Minnesota Vikings,1,3,0,1,0,27,314,36,0,0,4,4
+16. Tennessee Titans,1,2,2,0,0,21,203,160,0,0,4,4
+17. New York Jets,1,2,0,2,0,20,366,41,0,0,4,4
+18. Seattle Seahawks,1,3,0,0,0,24,145,205,0,0,3,3
+19. Atlanta Falcons,1,1,0,2,0,34,242,131,0,0,3,3
+20. Tampa Bay Buccaneers,1,0,1,2,0,27,217,198,0,0,3,3
+21. Washington Redskins,1,1,0,2,0,24,341,69,0,0,3,3
+22. Buffalo Bills,1,2,0,0,0,23,115,95,0,0,2,2
+23. New Orleans Saints,1,2,0,0,0,26,140,198,0,0,2,2
+24. Oakland Raiders,1,2,0,0,0,49,414,128,0,0,2,2
+25. Indianapolis Colts,1,1,0,0,0,24,340,143,0,0,1,1
+26. Green Bay Packers,1,1,0,0,0,27,271,171,0,0,1,1
+week 10,,,,,,,,,,,,
+1. St. Louis Rams,1,3,1,4,1,8,388,18,0,1,20,20
+2. Oakland Raiders,1,3,2,1,1,24,118,133,0,0,12,12
+3. Jacksonville Jaguars,1,1,3,1,1,27,279,83,0,0,11,11
+4. Arizona Cardinals,1,3,1,0,1,24,159,76,0,0,10,10
+5. Baltimore Ravens,1,5,0,3,0,17,244,120,0,0,8,8
+6. Carolina Panthers,1,6,1,1,0,9,46,105,0,0,8,8
+7. Cincinnati Bengals,1,5,1,2,0,20,104,85,0,0,8,8
+8. Tennessee Titans,1,3,0,2,0,29,160,54,1,0,7,7
+9. San Francisco 49ers,1,4,1,1,0,10,139,111,0,0,6,6
+10. New York Giants,1,4,1,1,0,20,106,107,0,0,6,6
+11. Buffalo Bills,1,4,0,1,0,23,164,136,0,0,5,5
+12. Miami Dolphins,1,2,0,1,0,22,124,140,1,0,5,5
+13. Pittsburgh Steelers,1,3,0,1,0,10,132,95,0,0,4,4
+14. Green Bay Packers,1,3,1,0,0,27,211,204,0,0,4,4
+15. Houston Texans,1,1,2,1,0,27,235,97,0,0,4,4
+16. Minnesota Vikings,1,4,0,0,0,27,242,191,0,0,4,4
+17. Denver Broncos,1,4,0,0,0,20,198,131,0,0,4,4
+18. Philadelphia Eagles,1,1,0,2,0,13,297,99,0,0,3,3
+19. Detroit Lions,1,2,0,1,0,19,300,38,0,0,3,3
+20. San Diego Chargers,1,2,1,0,0,28,313,84,0,0,3,3
+21. Seattle Seahawks,1,2,1,0,0,10,162,64,0,0,3,3
+22. Indianapolis Colts,1,2,1,0,0,38,232,140,0,0,3,3
+23. Tampa Bay Buccaneers,1,2,0,1,0,19,211,2,0,0,3,3
+24. New Orleans Saints,1,3,0,0,0,17,104,89,0,0,3,3
+25. Washington Redskins,1,1,0,1,0,34,216,91,0,0,2,2
+26. Dallas Cowboys,1,1,1,0,0,49,383,242,0,0,2,2
+27. Atlanta Falcons,1,1,0,0,0,33,279,211,0,0,1,1
+28. Chicago Bears,1,0,0,1,0,21,219,145,0,0,1,1
+week 11,,,,,,,,,,,,
+1. Buffalo Bills,1,4,1,3,1,14,133,134,0,0,14,14
+2. Cincinnati Bengals,1,4,1,3,1,20,228,102,0,0,14,14
+3. Seattle Seahawks,1,2,1,3,1,20,204,132,0,0,12,12
+4. Tampa Bay Buccaneers,1,3,1,2,1,28,268,152,0,0,12,12
+5. Chicago Bears,1,3,0,2,1,20,143,174,0,0,11,11
+6. New York Giants,1,0,0,3,1,13,339,55,0,0,9,9
+7. Houston Texans,1,2,0,0,0,28,176,165,0,1,8,8
+8. Cleveland Browns,1,0,0,2,1,41,118,106,0,0,8,8
+9. Philadelphia Eagles,1,4,1,1,0,16,236,191,0,0,6,6
+10. Pittsburgh Steelers,1,2,2,1,0,27,344,107,0,0,5,5
+11. San Diego Chargers,1,4,0,1,0,20,239,104,0,0,5,5
+12. Green Bay Packers,1,4,0,1,0,27,256,78,0,0,5,5
+13. Oakland Raiders,1,2,1,1,0,23,304,90,0,0,4,4
+14. Arizona Cardinals,1,2,0,2,0,14,242,32,0,0,4,4
+15. Carolina Panthers,1,2,1,1,0,20,283,107,0,0,4,4
+16. Miami Dolphins,1,3,0,1,0,16,281,154,0,0,4,4
+17. San Francisco 49ers,1,1,2,1,0,23,295,92,0,0,4,4
+18. New Orleans Saints,1,3,0,1,0,20,115,81,0,0,4,4
+19. Denver Broncos,1,3,1,0,0,17,200,144,0,0,4,4
+20. Indianapolis Colts,1,2,1,0,0,27,218,122,0,0,3,3
+21. Jacksonville Jaguars,1,3,0,0,0,27,402,14,0,0,3,3
+22. New England Patriots,1,3,0,0,0,24,197,103,0,0,3,3
+23. Washington Redskins,1,3,0,0,0,24,276,126,0,0,3,3
+24. Atlanta Falcons,1,2,0,0,0,41,224,186,0,0,2,2
+25. Baltimore Ravens,1,2,0,0,0,23,215,104,0,0,2,2
+26. Kansas City Chiefs,1,0,1,0,0,27,323,104,0,0,1,1
+27. Minnesota Vikings,1,1,0,0,0,41,230,93,0,0,1,1
+28. Tennessee Titans,1,1,0,0,0,30,229,137,0,0,1,1
+29. Detroit Lions,1,1,0,0,0,37,358,40,0,0,1,1
+30. New York Jets,1,1,0,0,0,37,245,68,0,0,1,1
+week 12,,,,,,,,,,,,
+1. Pittsburgh Steelers,1,5,3,1,1,11,312,55,0,0,15,15
+2. Tampa Bay Buccaneers,1,2,1,4,1,21,286,104,0,0,13,13
+3. Denver Broncos,1,3,3,0,1,34,324,116,0,0,12,12
+4. St. Louis Rams,1,1,2,1,1,21,344,80,0,0,10,10
+5. Dallas Cowboys,1,2,1,0,1,21,154,202,0,0,9,9
+6. Arizona Cardinals,1,1,0,1,1,11,159,80,0,0,8,8
+7. Green Bay Packers,1,6,1,0,0,26,215,232,0,0,7,7
+8. Baltimore Ravens,1,3,1,2,0,3,118,102,0,0,6,6
+9. New England Patriots,1,2,3,1,0,31,132,280,0,0,6,6
+10. New Orleans Saints,1,5,1,0,0,13,264,91,0,0,6,6
+11. New York Jets,1,4,0,1,0,19,245,67,0,0,5,5
+12. San Diego Chargers,1,3,1,1,0,38,281,114,0,0,5,5
+13. San Francisco 49ers,1,4,0,1,0,6,90,100,0,0,5,5
+14. New York Giants,1,4,0,1,0,24,220,107,0,0,5,5
+15. Houston Texans,1,4,0,0,0,13,215,118,0,0,4,4
+16. Carolina Panthers,1,3,0,1,0,16,280,52,0,0,4,4
+17. Detroit Lions,1,4,0,0,0,24,207,22,0,0,4,4
+18. Indianapolis Colts,1,3,0,0,0,40,290,120,0,0,3,3
+19. Jacksonville Jaguars,1,2,0,1,0,6,141,77,0,0,3,3
+20. Miami Dolphins,1,2,0,1,0,20,159,136,0,0,3,3
+21. Washington Redskins,1,2,1,0,0,27,228,76,0,0,3,3
+22. Oakland Raiders,1,2,0,0,0,23,312,114,0,0,2,2
+23. Chicago Bears,1,2,0,0,0,42,148,258,0,0,2,2
+24. Minnesota Vikings,1,2,0,0,0,26,298,196,0,0,2,2
+25. Tennessee Titans,1,0,1,1,0,19,260,93,0,0,2,2
+26. Atlanta Falcons,1,1,0,0,0,17,271,103,0,0,1,1
+27. Kansas City Chiefs,1,1,0,0,0,41,387,104,0,0,1,1
+28. Cleveland Browns,1,0,0,0,0,27,217,85,0,0,0,0
+week 13,,,,,,,,,,,,
+1. Green Bay Packers,1,1,2,2,1,40,320,241,1,0,13,13
+2. Detroit Lions,1,7,2,1,0,10,102,24,0,0,10,10
+3. Oakland Raiders,1,2,1,0,1,31,208,144,0,0,9,9
+4. Philadelphia Eagles,1,5,1,2,0,21,260,90,0,0,8,8
+5. Kansas City Chiefs,1,0,0,2,0,35,403,132,0,1,8,8
+6. Seattle Seahawks,1,1,1,0,1,7,144,44,0,0,8,8
+7. Dallas Cowboys,1,0,1,1,0,24,255,50,0,1,8,8
+8. Buffalo Bills,1,6,1,0,0,34,272,151,0,0,7,7
+9. Carolina Panthers,1,5,1,1,0,6,140,66,0,0,7,7
+10. Miami Dolphins,1,4,1,2,0,3,78,99,0,0,7,7
+11. Tennessee Titans,1,5,0,1,0,22,160,104,0,0,6,6
+12. New York Giants,1,5,1,0,0,17,184,139,0,0,6,6
+13. Jacksonville Jaguars,1,3,1,2,0,28,342,97,0,0,6,6
+14. Chicago Bears,1,5,0,1,0,23,250,246,0,0,6,6
+15. Arizona Cardinals,1,5,0,0,0,24,202,105,0,0,5,5
+16. Indianapolis Colts,1,1,1,3,0,14,185,162,0,0,5,5
+17. Cincinnati Bengals,1,2,2,1,0,10,243,91,0,0,5,5
+18. Minnesota Vikings,1,4,1,0,0,20,345,135,0,0,5,5
+19. St. Louis Rams,1,4,1,0,0,23,255,83,0,0,5,5
+20. Cleveland Browns,1,2,0,1,0,32,202,112,1,0,5,5
+21. Washington Redskins,1,3,0,1,0,24,206,80,0,0,4,4
+22. San Francisco 49ers,1,3,0,1,0,13,198,114,0,0,4,4
+23. New York Jets,1,1,0,1,0,23,328,125,0,0,2,2
+24. Atlanta Falcons,1,0,2,0,0,31,210,195,0,0,2,2
+25. Houston Texans,1,1,0,1,0,34,365,88,0,0,2,2
+26. Pittsburgh Steelers,1,2,0,0,0,22,237,74,0,0,2,2
+27. San Diego Chargers,1,0,1,1,0,17,190,164,0,0,2,2
+28. New England Patriots,1,1,0,1,0,31,264,121,0,0,2,2
+29. Tampa Bay Buccaneers,1,0,0,2,0,27,263,163,0,0,2,2
+30. New Orleans Saints,1,1,0,0,0,34,302,127,0,0,1,1
+31. Denver Broncos,1,0,0,1,0,28,293,159,0,0,1,1
+32. Baltimore Ravens,1,0,0,0,0,20,257,72,0,0,0,0
+week 14,,,,,,,,,,,,
+1. Kansas City Chiefs,1,6,1,1,0,10,192,65,0,2,20,20
+2. Atlanta Falcons,1,5,1,1,1,22,222,112,0,0,13,13
+3. Detroit Lions,1,0,0,1,0,34,179,299,0,2,13,13
+4. Arizona Cardinals,1,4,0,2,1,10,157,100,0,0,12,12
+5. Tampa Bay Buccaneers,1,7,1,4,0,6,147,67,0,0,12,12
+6. Pittsburgh Steelers,1,3,0,1,1,34,179,181,0,0,10,10
+7. Baltimore Ravens,1,0,1,0,0,26,265,114,0,1,7,7
+8. Cleveland Browns,1,4,1,1,0,27,397,87,0,0,6,6
+9. Jacksonville Jaguars,1,3,0,2,0,20,323,83,0,0,5,5
+10. San Diego Chargers,1,2,1,2,0,14,241,92,0,0,5,5
+11. Minnesota Vikings,1,2,0,3,0,29,228,97,0,0,5,5
+12. New Orleans Saints,1,5,0,0,0,13,111,128,0,0,5,5
+13. New York Jets,1,3,0,1,0,27,233,150,0,0,4,4
+14. Miami Dolphins,1,3,1,0,0,28,328,84,0,0,4,4
+15. St. Louis Rams,1,1,1,0,0,30,262,107,1,0,4,4
+16. Denver Broncos,1,2,1,1,0,28,158,96,0,0,4,4
+17. Green Bay Packers,1,1,1,1,0,21,202,83,0,0,3,3
+18. Philadelphia Eagles,1,0,3,0,0,20,148,80,0,0,3,3
+19. Buffalo Bills,1,1,0,2,0,27,81,165,0,0,3,3
+20. Seattle Seahawks,1,2,0,1,0,19,155,163,0,0,3,3
+21. San Francisco 49ers,1,2,0,1,0,17,178,86,0,0,3,3
+22. New York Giants,1,2,1,0,0,37,244,144,0,0,3,3
+23. Oakland Raiders,1,1,0,1,0,37,209,143,0,0,2,2
+24. Carolina Panthers,1,2,0,0,0,31,304,69,0,0,2,2
+25. Chicago Bears,1,2,0,0,0,28,130,198,0,0,2,2
+26. Houston Texans,1,1,0,0,0,27,132,149,0,0,1,1
+27. New England Patriots,1,1,0,0,0,26,386,108,0,0,1,1
+28. Dallas Cowboys,1,1,0,0,0,45,341,149,0,0,1,1
+29. Washington Redskins,1,0,0,1,0,45,154,193,0,0,1,1
+30. Indianapolis Colts,1,0,0,0,0,42,275,155,0,0,0,0
+31. Cincinnati Bengals,1,0,0,0,0,28,326,63,0,0,0,0
+32. Tennessee Titans,1,0,0,0,0,51,397,154,0,0,0,0
+week 15,,,,,,,,,,,,
+1. Cleveland Browns,1,2,1,2,2,38,261,179,0,0,17,17
+2. Kansas City Chiefs,1,0,2,5,1,31,331,130,0,0,13,13
+3. Arizona Cardinals,1,3,1,2,1,34,394,66,0,0,12,12
+4. San Francisco 49ers,1,4,1,1,1,14,144,39,0,0,12,12
+5. Carolina Panthers,1,4,0,1,1,20,140,157,0,0,11,11
+6. Buffalo Bills,1,5,2,2,0,20,195,159,0,0,9,9
+7. Seattle Seahawks,1,4,0,5,0,0,156,25,0,0,9,9
+8. Atlanta Falcons,1,1,5,2,0,26,373,103,0,0,8,8
+9. Pittsburgh Steelers,1,1,1,0,0,20,222,57,0,1,8,8
+10. Chicago Bears,1,0,0,2,1,31,273,93,0,0,8,8
+11. Tampa Bay Buccaneers,1,2,0,0,0,33,189,187,0,1,8,8
+12. St. Louis Rams,1,4,1,2,0,16,371,61,0,0,7,7
+13. Indianapolis Colts,1,4,0,2,0,3,132,107,0,0,6,6
+14. Jacksonville Jaguars,1,4,1,1,0,27,168,198,0,0,6,6
+15. Green Bay Packers,1,3,0,2,0,36,332,134,0,0,5,5
+16. Minnesota Vikings,1,4,0,1,0,30,396,79,0,0,5,5
+17. New England Patriots,1,4,1,0,0,24,289,89,0,0,5,5
+18. New York Giants,1,4,0,1,0,23,193,134,0,0,5,5
+19. Washington Redskins,1,3,1,1,0,27,189,54,0,0,5,5
+20. Houston Texans,1,1,0,1,0,25,179,152,1,0,4,4
+21. Philadelphia Eagles,1,3,0,1,0,48,370,85,0,0,4,4
+22. Baltimore Ravens,1,1,0,3,0,16,230,119,0,0,4,4
+23. Oakland Raiders,1,2,1,0,0,56,306,78,0,0,3,3
+24. Dallas Cowboys,1,2,0,1,0,37,283,150,0,0,3,3
+25. New York Jets,1,2,0,0,0,30,261,131,0,0,2,2
+26. San Diego Chargers,1,1,0,1,0,20,277,18,0,0,2,2
+27. Miami Dolphins,1,1,0,1,0,20,357,96,0,0,2,2
+28. Cincinnati Bengals,1,1,0,1,0,30,184,106,0,0,2,2
+29. Tennessee Titans,1,2,0,0,0,37,215,145,0,0,2,2
+30. Denver Broncos,1,2,0,0,0,27,160,177,0,0,2,2
+31. Detroit Lions,1,1,0,0,0,18,215,90,0,0,1,1
+32. New Orleans Saints,1,0,0,0,0,27,158,144,0,0,0,0
+week 16,,,,,,,,,,,,
+1. New England Patriots,1,4,1,3,2,7,237,121,0,0,20,20
+2. Cincinnati Bengals,1,4,1,3,1,14,94,115,0,0,14,14
+3. New York Giants,1,2,1,2,1,20,207,148,1,0,13,13
+4. Philadelphia Eagles,1,5,1,1,1,11,196,61,0,0,13,13
+5. Pittsburgh Steelers,1,3,1,1,1,31,219,151,0,0,11,11
+6. Buffalo Bills,1,7,0,2,0,0,89,14,0,0,9,9
+7. San Francisco 49ers,1,1,0,2,1,24,341,61,0,0,9,9
+8. St. Louis Rams,1,7,2,0,0,13,111,59,0,0,9,9
+9. Indianapolis Colts,1,4,2,2,0,7,132,155,0,0,8,8
+10. Carolina Panthers,1,6,0,2,0,13,239,126,0,0,8,8
+11. Arizona Cardinals,1,4,1,1,0,10,89,103,0,0,6,6
+12. Seattle Seahawks,1,2,0,4,0,17,168,139,0,0,6,6
+13. New Orleans Saints,1,4,0,1,0,17,141,81,0,0,5,5
+14. Denver Broncos,1,3,0,2,0,13,153,87,0,0,5,5
+15. New York Jets,1,3,0,2,0,13,168,115,0,0,5,5
+16. Chicago Bears,1,2,1,0,0,54,225,289,1,0,5,5
+17. Washington Redskins,1,2,1,1,0,24,214,95,0,0,4,4
+18. Detroit Lions,1,2,1,1,0,23,238,41,0,0,4,4
+19. Oakland Raiders,1,1,2,1,0,26,196,148,0,0,4,4
+20. Jacksonville Jaguars,1,3,0,1,0,20,164,182,0,0,4,4
+21. Tennessee Titans,1,2,0,1,0,16,226,63,0,0,3,3
+22. Green Bay Packers,1,1,1,1,0,38,192,151,0,0,3,3
+23. Atlanta Falcons,1,3,0,0,0,34,180,199,0,0,3,3
+24. San Diego Chargers,1,1,1,1,0,13,206,59,0,0,3,3
+25. Minnesota Vikings,1,2,1,0,0,42,348,81,0,0,3,3
+26. Tampa Bay Buccaneers,1,1,2,0,0,23,148,129,0,0,3,3
+27. Baltimore Ravens,1,2,0,0,0,41,158,142,0,0,2,2
+28. Miami Dolphins,1,1,0,1,0,19,187,203,0,0,2,2
+29. Houston Texans,1,1,0,0,0,37,397,114,0,0,1,1
+30. Kansas City Chiefs,1,1,0,0,0,23,232,135,0,0,1,1
+31. Dallas Cowboys,1,0,0,1,0,23,197,100,0,0,1,1
+32. Cleveland Browns,1,0,0,0,0,24,214,208,0,0,0,0
+week 17,,,,,,,,,,,,
+1. Carolina Panthers,1,9,0,1,1,20,231,76,0,0,16,16
+2. Cincinnati Bengals,1,2,0,3,1,17,175,47,0,0,11,11
+3. Seattle Seahawks,1,2,0,2,1,9,145,13,0,0,10,10
+4. New York Giants,1,3,2,2,0,6,160,91,0,0,7,7
+5. Dallas Cowboys,1,5,1,0,0,24,229,137,0,0,6,6
+6. Indianapolis Colts,1,3,1,1,0,10,308,42,0,0,5,5
+7. Pittsburgh Steelers,1,3,1,1,0,7,214,79,0,0,5,5
+8. Chicago Bears,1,3,0,2,0,33,313,160,0,0,5,5
+9. Minnesota Vikings,1,5,0,0,0,13,182,63,0,0,5,5
+10. Tennessee Titans,1,1,2,2,0,10,223,65,0,0,5,5
+11. Detroit Lions,1,3,1,1,0,14,171,174,0,0,5,5
+12. Baltimore Ravens,1,0,0,4,0,34,281,111,0,0,4,4
+13. Kansas City Chiefs,1,3,0,1,0,27,219,186,0,0,4,4
+14. St. Louis Rams,1,4,0,0,0,27,158,111,0,0,4,4
+15. New England Patriots,1,4,0,0,0,20,224,169,0,0,4,4
+16. Washington Redskins,1,1,1,2,0,20,156,122,0,0,4,4
+17. New York Jets,1,0,0,3,0,7,204,92,0,0,3,3
+18. Green Bay Packers,1,1,1,1,0,28,224,121,0,0,3,3
+19. Oakland Raiders,1,3,0,0,0,34,334,124,0,0,3,3
+20. Atlanta Falcons,1,1,1,1,0,21,149,134,0,0,3,3
+21. Philadelphia Eagles,1,0,1,2,0,22,358,59,0,0,3,3
+22. San Francisco 49ers,1,1,1,1,0,20,399,83,0,0,3,3
+23. Cleveland Browns,1,1,0,2,0,20,172,120,0,0,3,3
+24. New Orleans Saints,1,2,0,1,0,17,215,75,0,0,3,3
+25. Denver Broncos,1,2,1,0,0,14,191,64,0,0,3,3
+26. Arizona Cardinals,1,2,0,0,0,23,292,83,0,0,2,2
+27. Houston Texans,1,1,0,1,0,16,160,151,0,0,2,2
+28. Buffalo Bills,1,1,0,1,0,34,115,267,0,0,2,2
+29. San Diego Chargers,1,2,0,0,0,24,189,143,0,0,2,2
+30. Jacksonville Jaguars,1,1,0,0,0,30,299,80,0,0,1,1
+31. Tampa Bay Buccaneers,1,1,0,0,0,42,370,98,0,0,1,1
+32. Miami Dolphins,1,0,0,0,0,20,220,154,0,0,0,0
