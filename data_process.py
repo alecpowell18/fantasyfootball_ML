@@ -4,12 +4,17 @@ import numpy as np
 import random
 import defense_parser as defense
 
-season_long_qbs = ['Derek Carr', 'Andy Dalton', 'Joe Flacco', 'Andrew Luck','Aaron Rodgers','Drew Brees','Peyton Manning',
-	'Russell Wilson', 'Matt Ryan', 'Eli Manning', 'Philip Rivers', 'Tom Brady', 'Colin Kaepernick', 'Ben Roethlisberger',
-	'Matthew Stafford', 'Ryan Tannehill']
+# season_long_qbs = ['Derek Carr', 'Andy Dalton', 'Joe Flacco', 'Andrew Luck','Aaron Rodgers','Drew Brees','Peyton Manning',
+# 	'Russell Wilson', 'Matt Ryan', 'Eli Manning', 'Philip Rivers', 'Tom Brady', 'Colin Kaepernick', 'Ben Roethlisberger',
+# 	'Matthew Stafford', 'Ryan Tannehill']
 qb_team_abbreviations = {'Derek Carr':'OAK', 'Andy Dalton':'CIN', 'Joe Flacco':'BAL', 'Andrew Luck':'IND','Aaron Rodgers':'GB',
 	'Drew Brees':'NO','Peyton Manning':'DEN', 'Russell Wilson':'SEA', 'Matt Ryan':'ATL', 'Eli Manning':'NYG', 'Philip Rivers':'SD',
 	'Tom Brady':'NE', 'Colin Kaepernick':'SF', 'Ben Roethlisberger':'PIT','Matthew Stafford':'DET', 'Ryan Tannehill':'MIA'}
+
+#FOR USING OLDER DATA
+# data_file = 'data_2014.csv'
+data_file = 'data_2013_14.csv'
+num_seasons = 2
 
 fantasy_weights = {'Yds':.04,'Td':4,'Int':-1,'Ryds':.1,'Rtd':6}
 
@@ -46,7 +51,11 @@ def statHelper(player, stat, perfnum, n):
 	startperf = max(perfnum-n, 0)
 	while startperf < perfnum:
 		if stat == 'DefRnk':
-			toret.append(defense.getDefenseRank(startperf,qb_team_abbreviations[player]))
+			if startperf > 15:
+				season = 2014
+			else: season = 2013
+			# print player, stat, startperf%16, season
+			toret.append(defense.getDefenseRank(startperf%16,qb_team_abbreviations[player],season))
 		else: toret.append(qb_stats[player][stat][startperf])
 		startperf += 1
 	return toret
@@ -131,23 +140,29 @@ def train_gameday_LR(trainingsz):
 	return indices
 
 #PERF STRUCT: 
-def make_perfs_bag():
+def make_perfs_bag(qb_input_list):
 	if DEBUG: print "Making the bag of all performances data"
 	#change to list of ALL QBs
-	for qb in season_long_qbs:
+	for qb in qb_input_list:
 		# will have to change to adjust for ALL QBs
-		for perfnum in range(17-start_week):
-			x = []
-			y = []
-			for i in the_big_five:
-				x.append(statHelper(qb,i,perfnum+look_back,look_back))
-				y.append(qb_stats[qb][i][perfnum+look_back])
-			qb_perfs.append((x,y))
-			tup_1 = statHelper(qb,'DefRnk',perfnum+look_back,look_back)
-			tup_2 = defense.getDefenseRank(perfnum, qb_team_abbreviations[qb])
-			qb_perfs_defenses.append((tup_1,tup_2))
+		for perfnum in range(16*num_seasons-(start_week-1)):
+			# print perfnum+look_back
+			# print "length is:", len(qb_stats[qb]['Td'])
+			if len(qb_stats[qb]['Td']) > perfnum+look_back:
+				x = []
+				y = []
+				for i in the_big_five:
+					x.append(statHelper(qb,i,perfnum+look_back,look_back))
+					y.append(qb_stats[qb][i][perfnum+look_back])
+				qb_perfs.append((x,y))
+				tup_1 = statHelper(qb,'DefRnk',perfnum+look_back,look_back)
+				if perfnum+look_back > 15: 
+					curr_season = 2014
+				else: curr_season = 2013
+				tup_2 = defense.getDefenseRank(perfnum%16, qb_team_abbreviations[qb],curr_season)
+				qb_perfs_defenses.append((tup_1,tup_2))
+			# else: print "!"
 	if DEBUG: print "Bag filled."
-	# print qb_perfs_defenses
 
 def predict_qbs_for_week(week):
 	qb_week_scores = {}
@@ -165,29 +180,33 @@ def predict_qb_for_week(qb, week):
 		totalfantasyvalue += float(theta[the_big_five[i]].getT()*x*fantasy_weights[the_big_five[i]])
 	return totalfantasyvalue
 
-def predict_qbs_for_season():
-	qb_scores = {}
-	for qb in season_long_qbs:
-		week_scores = [];
-		for w in range(start_week, end_week+1):
-			score = predict_qb_for_week(qb, w)
-			week_scores.append(score)
-		qb_scores[qb] = week_scores
-	return qb_scores
+# def predict_qbs_for_season():
+# 	qb_scores = {}
+# 	for qb in season_long_qbs:
+# 		week_scores = [];
+# 		for w in range(start_week, end_week+1):
+# 			score = predict_qb_for_week(qb, w)
+# 			week_scores.append(score)
+# 		qb_scores[qb] = week_scores
+# 	return qb_scores
 
 def get_qb_stats():
 	return qb_stats
 
-qbs = open('data_2014.csv', 'rU')
+qbs = open(data_file, 'rU')
 qbs_read = csv.reader(qbs, dialect=csv.excel_tab)
 
 for parameter in qbs_read.next()[0].split(','):
 	qb_parameters.append(parameter)
 
+linecount = 0
 for line in qbs_read:
+	linecount += 1
 	single_params = line[0].split(',')
 	current_name = single_params[0].strip()
-	current_name = current_name[current_name.find('.')+2:]
+	if current_name[current_name.find('.')+1] == ' ':
+		current_name = current_name[current_name.find('.')+2:]
+	else: current_name = current_name[current_name.find('.')+1:]
 	week = single_params[2].strip()
 	qb_names.add(current_name)
 	if current_name not in qb_stats.keys():

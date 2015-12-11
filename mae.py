@@ -11,9 +11,11 @@ TRAINING_RATIO = 0.7
 fantasy_weights = {'Yds':.04,'Td':4,'Int':-1,'Ryds':.1,'Rtd':6}
 the_big_five = ['Yds','Td','Int','Ryds','Rtd']
 the_big_one = ['Td']
-season_long_qbs = ['Derek Carr', 'Andy Dalton', 'Joe Flacco', 'Andrew Luck','Aaron Rodgers','Drew Brees','Peyton Manning',
+#deleted Derek Carr
+season_long_qbs = ['Andy Dalton', 'Joe Flacco', 'Andrew Luck','Aaron Rodgers','Drew Brees','Peyton Manning',
 	'Russell Wilson', 'Matt Ryan', 'Eli Manning', 'Philip Rivers', 'Tom Brady', 'Colin Kaepernick', 'Ben Roethlisberger',
 	'Matthew Stafford', 'Ryan Tannehill']
+qb_input_list = []
 
 def get_actual_performance(qb,week_start):
 	actual_fantasy_performance = []
@@ -65,7 +67,7 @@ def plot_graph():
 	max_error = 20
 
 	min_num_examples = 10
-	max_num_examples = 250
+	max_num_examples = 500
 
 	# Setup labels and axes
 	plt.ylabel('Mean Absolute Error')
@@ -77,7 +79,7 @@ def plot_graph():
 	all_train_errors = []
 	all_test_errors = []
 
-	for i in range(min_num_examples,max_num_examples,5):
+	for i in range(min_num_examples,max_num_examples,10):
 		(train_error,test_error) = train_and_test(i)
 		all_train_errors.append(train_error)
 		all_test_errors.append(test_error)
@@ -90,9 +92,10 @@ def plot_graph():
 	plt.show()
 
  
-# Obtain season data
-dp.make_perfs_bag()
+#sets dp.qb_perfs with performances from given QBs
+dp.make_perfs_bag(season_long_qbs)
 TOTAL_PERF_RECORDS = len(dp.qb_perfs)
+print TOTAL_PERF_RECORDS
 
 def train_and_test(num_examples):
 	TOTAL_TRAINING_RECORDS = int(TRAINING_RATIO * num_examples)
